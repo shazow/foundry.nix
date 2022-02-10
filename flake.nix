@@ -18,10 +18,6 @@
         foundry-bin = import ./foundry-bin { inherit pkgs; };
         # TODO: Add a source-based derivation someday
       in rec {
-        overlays = {
-          foundry-bin = foundry-bin;
-        };
-
         apps.cast = {
           type = "app";
           program = "${defaultPackage}/bin/cast";
@@ -40,7 +36,11 @@
           ];
         };
       }
-    );
+    ) // {
+      overlay = (final: prev: rec {
+        foundry-bin = final.callPackage ./foundry-bin {};
+      });
+    };
 }
 
 # Also related: https://github.com/dapphub/dapptools/tree/master/nix
