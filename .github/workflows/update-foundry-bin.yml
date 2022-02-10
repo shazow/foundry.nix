@@ -1,6 +1,7 @@
 name: Update foundry-bin
 
 on:
+  workflow_dispatch:
   schedule:
   - cron: '6 9 * * *' # Run daily
 
