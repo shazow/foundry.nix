@@ -1,0 +1,17 @@
+name: Update foundry-bin
+
+on:
+  schedule:
+  - cron: '0 42 * * *'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cachix/install-nix-action@v12
+      - name: Building package
+        run: 'cd ./foundry-bin && ./update.sh'
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'foundry-bin/releases.nix: Nightly update'
