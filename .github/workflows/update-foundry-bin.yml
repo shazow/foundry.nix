@@ -2,7 +2,7 @@ name: Update foundry-bin
 
 on:
   schedule:
-  - cron: '0 42 * * *'
+  - cron: '6 9 * * *' # Run daily
 
 jobs:
   run:
