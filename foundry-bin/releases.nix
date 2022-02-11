@@ -9,11 +9,11 @@
     };
     "x86_64-darwin" = {
       url = "https://github.com/gakonst/foundry/releases/download/nightly-691c81424f7d16f1c832421c98897c73c5e56dd8/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "";
+      sha256 = "1m12b19ld2dl795rx3z7pz65x921574vrycprf2l2pvby022dj0p";
     };
     "aarch64-darwin" = {
       url = "https://github.com/gakonst/foundry/releases/download/nightly-691c81424f7d16f1c832421c98897c73c5e56dd8/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "";
+      sha256 = "0p7wwhy8lbzgmymj6hmdg2bpfjmjvajlib80ib5gxi1r2zn06pkj";
     };
   };
 }
