@@ -3,12 +3,15 @@ Nix overlay for [gakonst/foundry](https://github.com/gakonst/foundry/) (includin
 
 This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release.
 
-## Usage: Showing off nix (v2.4+ with flakes enabled)
+## Usage: Showing off nix
 
-We can nix run this repo, forge is the default app target:
+If we have [nix v2.4 or newer](https://nix.dev/tutorials/install-nix), we run this repo and get `forge` is the default app target:
 
 ```console
 $ nix run github:shazow/foundry.nix
+forge 0.1.0 (691c814 2022-02-11T00:23:35.582887615+00:00)
+Build, test, fuzz, formally verify, debug & deploy solidity contracts.
+...
 ```
 
 We can also specify a target, such as `cast`:
