@@ -1,5 +1,5 @@
 # foundry.nix
-Nix overlay for [pgakonst/foundry](https://github.com/gakonst/foundry/) (including `forge` and `cast`)
+Nix overlay for [gakonst/foundry](https://github.com/gakonst/foundry/) (including `forge` and `cast`)
 
 This repository is auto-updated daily with the latest nightly binary release.
 
