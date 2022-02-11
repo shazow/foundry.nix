@@ -1,9 +1,9 @@
 # foundry.nix
 Nix overlay for [gakonst/foundry](https://github.com/gakonst/foundry/) (including `forge` and `cast`)
 
-This repository is auto-updated daily with the latest nightly binary release.
+This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release.
 
-## Usage: Showing off nix
+## Usage: Showing off nix (v2.4+ with flakes enabled)
 
 We can nix run this repo, forge is the default app target:
 
