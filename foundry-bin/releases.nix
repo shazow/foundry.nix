@@ -5,15 +5,15 @@
   sources = {
     "x86_64-linux" = {
       url = "https://github.com/gakonst/foundry/releases/download/nightly-135cb1283293dd1248abab267eb7eed927587646/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0d08l2vzj0snkrw3wdzwxi85ydb7s756z6la2p5naxrv27hkp9yc";
+      sha256 = "1r4k2yxiskmsmhg5wcmpywgxn50scyx5nm5vgmrsn19z8ff6g8s7";
     };
     "x86_64-darwin" = {
       url = "https://github.com/gakonst/foundry/releases/download/nightly-135cb1283293dd1248abab267eb7eed927587646/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1bn79r8lvxrsryi2cqkk83z17nl0jj60kwgsndkh3c5h19clvppw";
+      sha256 = "0cs3gp4khfwwf7031mmspfa5mxkmjx4mpxq95i41lyajw2xm6dcq";
     };
     "aarch64-darwin" = {
       url = "https://github.com/gakonst/foundry/releases/download/nightly-135cb1283293dd1248abab267eb7eed927587646/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0nwhw7lnzsw9rjkjkz17r64z2chz6yrr78fsqkmb36b7vl8xzxfd";
+      sha256 = "0azmxclkf59isb5bl7a5c04m8m999pqpxy9d1l858f2kkwpazw3f";
     };
   };
 }
