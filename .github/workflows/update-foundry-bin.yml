@@ -18,3 +18,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'foundry-bin/releases.nix: Nightly update'
+          commit_author: Nix Updater <actions@github.com>
