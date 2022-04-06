@@ -17,9 +17,10 @@ in
     };
 
     nativeBuildInputs = with pkgs; [
-      autoPatchelfHook
       pkg-config
       openssl
+    ] ++ lib.optionals stdenv.isLinux [
+      autoPatchelfHook
     ];
 
     installPhase = ''
