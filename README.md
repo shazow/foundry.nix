@@ -1,5 +1,5 @@
 # foundry.nix
-Nix overlay for [gakonst/foundry](https://github.com/gakonst/foundry/) (including `forge` and `cast`)
+Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge` and `cast`)
 
 This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release.
 
@@ -59,7 +59,7 @@ Make a `flake.nix` in your solidity project directory:
             # From the foundry overlay
             # Note: Can also be referenced without overlaying as: foundry.defaultPackage.${system}
             foundry-bin
-            
+
             # ... any other dependencies we need
             solc
           ];
@@ -79,4 +79,4 @@ Running `nix flake update` will repin to the latest foundry release from this re
 
 ## NixOS Caveat
 
-The foundry `forge` and `cast` binaries are auto-ELF-patched to work on NixOS, but by default `forge` will attempt to fetch `solc` binaries which are not patched. To avoid this, `--no-auto-detect` must be used with a locally-installed `solc`. See: [foundry#545](https://github.com/gakonst/foundry/issues/545)
+The foundry `forge` and `cast` binaries are auto-ELF-patched to work on NixOS, but by default `forge` will attempt to fetch `solc` binaries which are not patched. To avoid this, `--no-auto-detect` must be used with a locally-installed `solc`. See: [foundry#545](https://github.com/foundry-rs/foundry/issues/545)
