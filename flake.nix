@@ -1,5 +1,5 @@
 {
-  description = "Overlay for gakonst/foundry";
+  description = "Overlay for foundry-rs/foundry";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";

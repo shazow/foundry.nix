@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-GITHUB_API_URL="https://api.github.com/repos/gakonst/foundry/releases"
+GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
 
 latest_release_json="$(curl -s "$GITHUB_API_URL" | jq .[0])"
 tag_name="$(echo $latest_release_json | jq -r .tag_name)"
@@ -12,7 +12,7 @@ timestamp="$(echo $latest_release_json | jq -r .created_at)"
 
 get_url() {
     declare arch="$1"
-    echo "https://github.com/gakonst/foundry/releases/download/${tag_name}/foundry_nightly_${arch}.tar.gz"
+    echo "https://github.com/foundry-rs/foundry/releases/download/${tag_name}/foundry_nightly_${arch}.tar.gz"
 }
 
 get_hash() {
