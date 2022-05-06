@@ -26,6 +26,10 @@
           type = "app";
           program = "${defaultPackage}/bin/forge";
         };
+        apps.anvil = {
+          type = "app";
+          program = "${defaultPackage}/bin/anvil";
+        };
 
         defaultApp = apps.forge;
         defaultPackage = foundry-bin;

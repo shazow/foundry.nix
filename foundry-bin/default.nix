@@ -25,11 +25,13 @@ in
 
     installPhase = ''
     mkdir -p $out/bin
-    mv forge cast $out/bin/
+    mv forge cast anvil $out/bin/
     '';
 
     doInstallCheck = true;
     installCheckPhase = ''
     $out/bin/forge --version > /dev/null
+    $out/bin/cast --version > /dev/null
+    $out/bin/anvil --version > /dev/null
     '';
   }

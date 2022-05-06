@@ -1,5 +1,5 @@
 # foundry.nix
-Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge` and `cast`)
+Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge`, `cast` and `anvil`)
 
 This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release.
 
