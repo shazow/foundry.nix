@@ -73,7 +73,7 @@ Make a `flake.nix` in your solidity project directory:
 }
 ```
 
-Then run `nix develop` to enter a shell with foundry binaries (`forge` and `cast`) present.
+Then run `nix develop` to enter a shell with foundry binaries (`forge`, `cast` and `anvil`) present.
 
 Running `nix flake update` will repin to the latest foundry release from this repo (auto-updates daily).
 
