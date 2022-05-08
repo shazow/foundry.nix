@@ -30,6 +30,10 @@ cat > releases.nix << EOF
       url = "$(get_url linux_amd64)";
       sha256 = "$(get_hash linux_amd64)";
     };
+    "aarch64-linux" = {
+      url = "$(get_url linux_arm64)";
+      sha256 = "$(get_hash linux_arm64)";
+    }; 
     "x86_64-darwin" = {
       url = "$(get_url darwin_amd64)";
       sha256 = "$(get_hash darwin_amd64)";
