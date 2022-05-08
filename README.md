@@ -1,5 +1,5 @@
 # foundry.nix
-Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge` and `cast`)
+Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge`, `cast` and `anvil`)
 
 This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release.
 
@@ -73,7 +73,7 @@ Make a `flake.nix` in your solidity project directory:
 }
 ```
 
-Then run `nix develop` to enter a shell with foundry binaries (`forge` and `cast`) present.
+Then run `nix develop` to enter a shell with foundry binaries (`forge`, `cast` and `anvil`) present.
 
 Running `nix flake update` will repin to the latest foundry release from this repo (auto-updates daily).
 
