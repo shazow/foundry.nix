@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2022-07-21T19:57:48Z";
+  timestamp = "2022-07-22T16:58:46Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-160cc8146552d15b71522c38f7b13d355ea0aaac/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1mk2kphpkacc74h9vnlylyv33f9mfxvhw6aqjag364146801fj6p";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-33dbaa589ca2bff9a54efc35f28eeb1b02e477cf/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1s775yzd9gnkyci4hidy2rxiw69m2adb10g2qbn0rg3x7nz1wfly";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-160cc8146552d15b71522c38f7b13d355ea0aaac/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0ad6lyl8ldxmirx6fpxb5rqd994ivdg3nka33amdxymw7ishmpqy";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-33dbaa589ca2bff9a54efc35f28eeb1b02e477cf/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1aqrv6vipl14b4hlfb16xyj5gj3kiq7m7a8w88bi4hw4l13y1zrg";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-160cc8146552d15b71522c38f7b13d355ea0aaac/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0hsc36qjdcgnnigi5am9ljyk6p1bh3mlagpn6kp9aj4bbgmaqlwq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-33dbaa589ca2bff9a54efc35f28eeb1b02e477cf/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "17s57f0dck9474rnl6vvrbk5l8q6pw90w97q09999pxsjdif7b71";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-160cc8146552d15b71522c38f7b13d355ea0aaac/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1krlaxys58zwjwsqygb0365r3fa3jzi4vp80wmvc0y2vs5s56wwd";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-33dbaa589ca2bff9a54efc35f28eeb1b02e477cf/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1fbxq7vd4bd7h744ama61had3pija3kr26vmn799x1d8qamnlx4b";
     };
   };
 }
