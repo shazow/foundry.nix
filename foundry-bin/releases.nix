@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2022-07-27T22:21:33Z";
+  timestamp = "2022-07-28T18:12:57Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-4b720c27251bd661360f28c3b87f8759f9fb2e8d/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "16q8l5kmjl1asrg24v4f0kr05fqlsrqgywh0driyrd5nq3429x6c";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-2f4dc6cc514ff816589144622f1d6e183dddb13b/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0554dyh1i9k3p7l5waknmdfmjzk7z3akg5vfxadswvn54v7qr81g";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-4b720c27251bd661360f28c3b87f8759f9fb2e8d/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1s68fk7q1ngc9fxzzqfvn3ka16qs9ify367hp5p77hacrnic1fg4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-2f4dc6cc514ff816589144622f1d6e183dddb13b/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "14kdg55y5kqy887j21pwi6n53v7dm59zq0iczaqwnyrxcnj6sw8n";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-4b720c27251bd661360f28c3b87f8759f9fb2e8d/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0v0qx0xzgngisvrrfrmcpxsvwcwbg43wxbq9c95nz75a2c1bfgy4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-2f4dc6cc514ff816589144622f1d6e183dddb13b/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1yvblqpjv2xizm8prsp8jn5rqs24kpjyp5n0w5bplvn74ilmwjl3";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-4b720c27251bd661360f28c3b87f8759f9fb2e8d/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "02hny45cp4p5lacx1p2b4i0dg2324axywrlhdz5wsxygmx4ahxag";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-2f4dc6cc514ff816589144622f1d6e183dddb13b/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0b2hmmvanrgl666hajpihh37ahi6igyy2l0bcy60qs2332alvp19";
     };
   };
 }
