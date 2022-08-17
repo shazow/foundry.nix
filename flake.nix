@@ -32,7 +32,7 @@
           program = "${defaultPackage}/bin/anvil";
         };
 
-        defaultApp = apps.forge;
+        apps.default = apps.forge;
         defaultPackage = foundry-bin;
 
         devShell = pkgs.mkShell {
