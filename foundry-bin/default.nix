@@ -28,10 +28,13 @@ in
     mv forge cast anvil $out/bin/
     '';
 
-    doInstallCheck = true;
     installCheckPhase = ''
     $out/bin/forge --version > /dev/null
     $out/bin/cast --version > /dev/null
     $out/bin/anvil --version > /dev/null
     '';
+
+    # FIXME: doInstallCheck seems broken right now?
+    # https://github.com/shazow/foundry.nix/issues/7
+    #doInstallCheck = true;
   }
