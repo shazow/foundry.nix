@@ -2,7 +2,6 @@
   description = "Overlay for foundry-rs/foundry";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
