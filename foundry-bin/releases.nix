@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2022-10-27T14:45:14Z";
+  timestamp = "2022-10-28T18:19:37Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-29720332006f532816c5eb2d40fc09db644be6ba/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0s6xnj1aab6mly8jqvdxc07qam4lpl0sj45cf4wsh9a8gj4cwkd1";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-22ad9548236a415ab4756969ec1e14aa97698b11/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0969f5l3h8p57bv3dhc2c93256x88l0cbfnvypsdcacr5349jmim";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-29720332006f532816c5eb2d40fc09db644be6ba/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "09lfj0q128npq1mwldixb47dn8nn9ggx35fp8ss327hnj7g762x8";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-22ad9548236a415ab4756969ec1e14aa97698b11/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0vcvqk341wmzhqnqq4lf31hmfxpm401acpqadh0pl9mmgadn69z6";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-29720332006f532816c5eb2d40fc09db644be6ba/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1a7rgpwnwb4cfrhf9v8pc3cx7jdqxzl4iqm277wph8lq7nkh1pzw";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-22ad9548236a415ab4756969ec1e14aa97698b11/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1dqxy6j4jwscmmj3wzwypyiknsb56dmwf6ldnjghgn2d2xqqfp5f";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-29720332006f532816c5eb2d40fc09db644be6ba/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "16xwdkaamiv0caz0janm1mrwwnlhqmnllyc8bvcmjhagnasniqpx";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-22ad9548236a415ab4756969ec1e14aa97698b11/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "02160fwyn0sq0rl24v6k7v7412f519g76r61k8l2lkx022fczm7d";
     };
   };
 }
