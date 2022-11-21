@@ -27,7 +27,7 @@ in
     installPhase = let
       path = lib.makeBinPath [ pkgs.git ];
     in ''
-    set -euo pipefail
+    set -e
     mkdir -p $out/bin
     mv forge cast anvil $out/bin/
     find $out/bin -type f | while read -r x; do
