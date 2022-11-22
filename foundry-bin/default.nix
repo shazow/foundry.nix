@@ -19,13 +19,20 @@ in
     nativeBuildInputs = with pkgs; [
       pkg-config
       openssl
+      makeWrapper
     ] ++ lib.optionals stdenv.isLinux [
       autoPatchelfHook
     ];
 
-    installPhase = ''
+    installPhase = let
+      path = lib.makeBinPath [ pkgs.git ];
+    in ''
+    set -e
     mkdir -p $out/bin
     mv forge cast anvil $out/bin/
+    find $out/bin -type f | while read -r x; do
+      wrapProgram "$x" --prefix PATH : "${path}"
+    done
     '';
 
     installCheckPhase = ''
@@ -34,7 +41,5 @@ in
     $out/bin/anvil --version > /dev/null
     '';
 
-    # FIXME: doInstallCheck seems broken right now?
-    # https://github.com/shazow/foundry.nix/issues/7
-    #doInstallCheck = true;
+    doInstallCheck = true;
   }
