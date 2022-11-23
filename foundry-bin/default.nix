@@ -25,7 +25,7 @@ in
     ];
 
     installPhase = let
-      path = lib.makeBinPath [ pkgs.git ];
+      path = pkgs.lib.makeBinPath [ pkgs.git ];
     in ''
     set -e
     mkdir -p $out/bin
