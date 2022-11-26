@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2022-11-24T23:45:41Z";
+  timestamp = "2022-11-25T21:23:29Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-68714214c4aae6e337e6b2e40cf4de0d2de61f38/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1hchhd4b6yj5d69x02lgxm7v3znnxpkhi1l9270vdk3wiy02dnxz";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-47ba170aa822191a62172ac65117a455c1dcc818/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0b2hrlpww09f4xv1lbjxh4f4blc2acs8179rmn2xw2pnwvgjjn8r";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-68714214c4aae6e337e6b2e40cf4de0d2de61f38/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0hgq3lxjr9qqgzk5db77a9sbb2cn3w4lplc0xq9nx53m8hrpvijr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-47ba170aa822191a62172ac65117a455c1dcc818/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "10hkbx2n6pwn5y24h9wda9qfg68ibjbvff08c55xddlsskkq45px";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-68714214c4aae6e337e6b2e40cf4de0d2de61f38/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "09bxrwx532dznh8ycg3a3dzixch1v017kiksaikdm8id42yybxbp";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-47ba170aa822191a62172ac65117a455c1dcc818/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "01kf4r3l0x1jxhb5crmw58l2rzbc5y9r94d4fsm0hmnbsydsgg74";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-68714214c4aae6e337e6b2e40cf4de0d2de61f38/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "089s93kj2vpysi59lx6bqwdcpghglm6jcg4kvm8r0pbcj38k9z4y";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-47ba170aa822191a62172ac65117a455c1dcc818/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1l6ps9pvpkkvhrcr5ib7pfisl6a4x4k3jamil19gifcgs8njn769";
     };
   };
 }
