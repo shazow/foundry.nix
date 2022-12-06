@@ -1,12 +1,10 @@
-{ 
-  pkgs ? import <nixpkgs> {},
-}:
-let
-  inherit (pkgs) stdenv;
+{pkgs ? import <nixpkgs> {}}: let
+  inherit (pkgs) stdenv lib;
 
   arch = stdenv.hostPlatform.system;
   releases = import ./releases.nix;
   srcAttrs = releases.sources.${arch};
+  bins = ["forge" "cast" "anvil"];
 in
   stdenv.mkDerivation {
     pname = "foundry";
@@ -16,29 +14,42 @@ in
       stripRoot = false;
     };
 
-    nativeBuildInputs = with pkgs; [
-      pkg-config
-      openssl
-      makeWrapper
-    ] ++ lib.optionals stdenv.isLinux [
-      autoPatchelfHook
-    ];
+    nativeBuildInputs = with pkgs;
+      [
+        pkg-config
+        openssl
+        makeWrapper
+        installShellFiles
+      ]
+      ++ lib.optionals stdenv.isLinux [
+        autoPatchelfHook
+      ];
+
+    postPhases = ["postAutoPatchelf"];
 
     installPhase = let
-      path = pkgs.lib.makeBinPath [ pkgs.git ];
+      path = pkgs.lib.makeBinPath [pkgs.git];
     in ''
-    set -e
-    mkdir -p $out/bin
-    mv forge cast anvil $out/bin/
-    find $out/bin -type f | while read -r x; do
-      wrapProgram "$x" --prefix PATH : "${path}"
-    done
+      set -e
+      mkdir -p $out/bin
+      ${lib.concatMapStringsSep "\n" (bin: ''
+          install -m755 -D ${bin} $out/bin/${bin}
+          wrapProgram $out/bin/${bin} --prefix PATH : "${path}"
+        '')
+        bins}
+    '';
+
+    postAutoPatchelf = ''
+      ${lib.concatMapStringsSep "\n" (bin: ''
+          installShellCompletion --cmd ${bin} --bash <($out/bin/${bin} completions bash) --fish <($out/bin/${bin} completions fish) --zsh <($out/bin/${bin} completions zsh)
+        '')
+        bins}
     '';
 
     installCheckPhase = ''
-    $out/bin/forge --version > /dev/null
-    $out/bin/cast --version > /dev/null
-    $out/bin/anvil --version > /dev/null
+      $out/bin/forge --version > /dev/null
+      $out/bin/cast --version > /dev/null
+      $out/bin/anvil --version > /dev/null
     '';
 
     doInstallCheck = true;
