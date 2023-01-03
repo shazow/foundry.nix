@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2022-12-30T19:17:56Z";
+  timestamp = "2023-01-01T11:02:05Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0398a95139cafadfc196a18752b413832d0087b5/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "11c2r3206xzdbyyyaxdkj8wkfbds1yaavsgk5hibcqbb71hykf8b";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a44159a5c23d2699d3a390e6d4889b89a0e5a5e0/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "07rmbjf786f1p88zvaxk0q596x7cykn2bbqr9pdig1iap7814lm7";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0398a95139cafadfc196a18752b413832d0087b5/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "13i4vfh7a7ns54rzfs7q6dnc2z0y70867i158dgbdl4bvivd3acm";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a44159a5c23d2699d3a390e6d4889b89a0e5a5e0/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1jfhmn3cpxsx0wy8fxhivmixfjrk8xrkipzaf1w1iq8aij93radf";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0398a95139cafadfc196a18752b413832d0087b5/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0kh8kpfbygcwvqy21fbvydry05y4nxxhn5ail754vwznj47rifrj";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a44159a5c23d2699d3a390e6d4889b89a0e5a5e0/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "039j0cvnh1myq69yh0zbigfkvpp01pjl40vg6b50cxvr206z41rm";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0398a95139cafadfc196a18752b413832d0087b5/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0qq244lmdz437z1ilys3yaf5diaxwx3jbazy63xcjxzd0gpl5qnl";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a44159a5c23d2699d3a390e6d4889b89a0e5a5e0/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0lhzhsr8vw07s6p3429g0kzkg38s57gm3v220qckvi2w3dq21s97";
     };
   };
 }
