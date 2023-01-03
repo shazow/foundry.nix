@@ -2,11 +2,16 @@
 #!nix-shell -i bash -p curl jq nix-prefetch
 # Update releases.nix
 
-set -euo pipefail
+set -euxo pipefail
 
 GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
 
-latest_release_json="$(curl -s "$GITHUB_API_URL" | jq .[0])"
+if [ "$1" == "monthly" ];then
+    release_filter="map(select(.name | match(\"-01-01\"))) |"
+    echo "Using monthly release filter."
+fi
+
+latest_release_json="$(curl -s "$GITHUB_API_URL" | jq "$release_filter .[0]")"
 tag_name="$(echo $latest_release_json | jq -r .tag_name)"
 timestamp="$(echo $latest_release_json | jq -r .created_at)"
 
