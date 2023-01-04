@@ -1,4 +1,4 @@
-name: Update foundry-bin
+name: Update foundry-bin monthly
 
 on:
   workflow_dispatch:
