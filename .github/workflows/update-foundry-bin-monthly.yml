@@ -3,7 +3,7 @@ name: Update foundry-bin monthly
 on:
   workflow_dispatch:
   schedule:
-  - cron: '6 9 5 * *' # Run daily
+  - cron: '6 9 2 * *' # Run monthly
 
 jobs:
   run:
