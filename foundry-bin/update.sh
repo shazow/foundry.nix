@@ -10,6 +10,9 @@ SCHEDULE=${1:-}
 if [ "$SCHEDULE" == "monthly" ];then
     release_filter="map(select(.name | match(\"-01-01\"))) |"
     echo "Using monthly release filter."
+else
+    release_filter=""
+    echo "Using daily release filter."
 fi
 
 latest_release_json="$(curl -s "$GITHUB_API_URL" | jq "$release_filter .[0]")"
