@@ -6,7 +6,8 @@ set -euxo pipefail
 
 GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
 
-if [ "$1" == "monthly" ];then
+SCHEDULE=${1:-}
+if [ "$SCHEDULE" == "monthly" ];then
     release_filter="map(select(.name | match(\"-01-01\"))) |"
     echo "Using monthly release filter."
 fi
