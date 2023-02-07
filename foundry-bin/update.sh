@@ -19,6 +19,11 @@ latest_release_json="$(curl -s "$GITHUB_API_URL" | jq "$release_filter .[0]")"
 tag_name="$(echo $latest_release_json | jq -r .tag_name)"
 timestamp="$(echo $latest_release_json | jq -r .created_at)"
 
+if [[ "$timestamp" == null ]];then
+    echo "Sad month, no build :("
+    exit 0
+fi
+
 get_url() {
     declare arch="$1"
     echo "https://github.com/foundry-rs/foundry/releases/download/${tag_name}/foundry_nightly_${arch}.tar.gz"
