@@ -8,7 +8,7 @@ GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
 
 SCHEDULE=${1:-}
 if [[ "$SCHEDULE" == "monthly" ]];then
-    release_filter="map(select(.created_at | match(\"-01-01\"))) |"
+    release_filter="map(select(.created_at | match(\"-$(date +%m)-\"))) |"
     echo "Using monthly release filter."
 else
     release_filter=""
