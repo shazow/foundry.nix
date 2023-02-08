@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-02-06T18:46:11Z";
+  timestamp = "2023-02-07T15:36:19Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ebe1b45187f56b6c024d63c55de2d520cb715639/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "08fv8qb4615ls9h499vcsdf3fgnb3rapj91crc4h9spx96lmi746";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7019d045765ea4814861058bba35570fc0754a5/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1bjps0hrpapivvbdnszwnxajs12isw4qzyiwhqiairvbvcmdszwr";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ebe1b45187f56b6c024d63c55de2d520cb715639/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "15dq281cf2wxcy7nxaz5yw5rzp9kddwdjr5iv0ipm9m38i4jyfv5";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7019d045765ea4814861058bba35570fc0754a5/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1w3frnmv2z84knlaqy93n94ikknkgmk463fjji5q27x7rxch53hr";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ebe1b45187f56b6c024d63c55de2d520cb715639/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "16ay3j52h58by2vx2f96ar0q71dbk0ykaar8b6kd435m27xk34vx";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7019d045765ea4814861058bba35570fc0754a5/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1z5p43znx9qvjqmyqvrll74f6id7bq99ca170qnm0nhv2z91g1cs";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ebe1b45187f56b6c024d63c55de2d520cb715639/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7019d045765ea4814861058bba35570fc0754a5/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0w5hn91knd38b7s08p7k2dn2bi8lsmsdq18fiwc2d7mwzjipavw8";
     };
   };
 }
