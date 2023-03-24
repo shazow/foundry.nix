@@ -30,6 +30,10 @@
           type = "app";
           program = "${defaultPackage}/bin/anvil";
         };
+        apps.chisel = {
+          type = "app";
+          program = "${defaultPackage}/bin/chisel";
+        };
 
         apps.default = apps.forge;
         defaultPackage = foundry-bin;
