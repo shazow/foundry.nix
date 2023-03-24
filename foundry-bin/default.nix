@@ -4,7 +4,7 @@
   arch = stdenv.hostPlatform.system;
   releases = import ./releases.nix;
   srcAttrs = releases.sources.${arch};
-  bins = ["forge" "cast" "anvil"];
+  bins = ["forge" "cast" "anvil" "chisel"];
 in
   stdenv.mkDerivation {
     pname = "foundry";
@@ -50,6 +50,7 @@ in
       $out/bin/forge --version > /dev/null
       $out/bin/cast --version > /dev/null
       $out/bin/anvil --version > /dev/null
+      $out/bin/chisel --version > /dev/null
     '';
 
     doInstallCheck = true;
