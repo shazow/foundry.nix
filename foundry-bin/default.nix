@@ -39,6 +39,14 @@ in
         bins}
     '';
 
+    # Adapation for https://github.com/NixOS/nixpkgs/pull/209870;
+    # something similar will go upstream in nixpkgs for all
+    # autoPatchelfHook users.  When it does, this can be dropped.
+    preFixup = lib.optionalString (stdenv?cc.cc.libgcc) ''
+      set -x
+      addAutoPatchelfSearchPath ${stdenv.cc.cc.libgcc}/lib
+    '';
+
     postAutoPatchelf = ''
       ${lib.concatMapStringsSep "\n" (bin: ''
           installShellCompletion --cmd ${bin} --bash <($out/bin/${bin} completions bash) --fish <($out/bin/${bin} completions fish) --zsh <($out/bin/${bin} completions zsh)
