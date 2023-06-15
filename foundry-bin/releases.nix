@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-06-13T21:24:40Z";
+  timestamp = "2023-06-14T18:08:11Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1a1d6532c4da2105e871054208d606192ed695f9/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "111r18a7dydm94rrx86wh9bc2mk07av2mgjgp7qlfi7daswi26nm";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ce687fc38ee14081f613379369bd3b7b98907cb2/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "120xvpl7ksnn0wyprd0n95zqvqyjqy4h1jymhd52yrnvpd27a1kr";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1a1d6532c4da2105e871054208d606192ed695f9/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0hgysn0k42fd17siikizlix6bkp0jwklnvh94q4wjzbcys3cp4gz";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ce687fc38ee14081f613379369bd3b7b98907cb2/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0h0mfzfl9h8q5qzpj26rpbyvxdncs8sgd5xmxzw9i9mg7n1702rb";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1a1d6532c4da2105e871054208d606192ed695f9/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1ch0mvfhmf5436jc8a79dnhw3kxnzb4d48a5hcshmsc4036lgki3";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ce687fc38ee14081f613379369bd3b7b98907cb2/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1nd1df1prc03xm48msb2drvd9y9kbda86xgbi5696akh4x1c5h28";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1a1d6532c4da2105e871054208d606192ed695f9/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "13d7bh92afsadi4vk7w5q7n7b62xj9pil31qn6yb4sbd2g9x7jyf";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ce687fc38ee14081f613379369bd3b7b98907cb2/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "11xyq714l7wvswmdayv8mirxpr2gjpdw1cf5w5idgx1mv5yn710g";
     };
   };
 }
