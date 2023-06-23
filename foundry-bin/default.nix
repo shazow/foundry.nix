@@ -5,6 +5,7 @@
   releases = import ./releases.nix;
   srcAttrs = releases.sources.${arch};
   bins = ["forge" "cast" "anvil" "chisel"];
+  binsWithCompletions = ["forge" "cast" "anvil" ];
 in
   stdenv.mkDerivation {
     pname = "foundry";
@@ -51,7 +52,7 @@ in
       ${lib.concatMapStringsSep "\n" (bin: ''
           installShellCompletion --cmd ${bin} --bash <($out/bin/${bin} completions bash) --fish <($out/bin/${bin} completions fish) --zsh <($out/bin/${bin} completions zsh)
         '')
-        bins}
+        binsWithCompletions}
     '';
 
     installCheckPhase = ''
