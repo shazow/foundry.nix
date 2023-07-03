@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-07-01T15:47:15Z";
+  timestamp = "2023-07-02T17:35:02Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d369d2486f85576eec4ca41d277391dfdae21ba7/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "15cchkwdry5ka6kw99lv2k09bgg7q3vf58xvz1ikwaskv384l3sr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9aefa433dfa28dd74b83c83f7265c91f7506f4bc/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "120yyw57vskndbydx21llm15v35q30cfyw2gqm5mxm0b1ajlr5lg";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d369d2486f85576eec4ca41d277391dfdae21ba7/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1qws4404x84q74sl5bf6070il5g9chzamhlkvzimbgf2x4dinnxd";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9aefa433dfa28dd74b83c83f7265c91f7506f4bc/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0xxy071qyzz31iqni6wfm369cg7jmsczkz0n1l199r16v4yaf088";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d369d2486f85576eec4ca41d277391dfdae21ba7/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "14mr752awhw5d403dq2vjsms31r7hv3l727zp0fikm4xx0shplp6";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9aefa433dfa28dd74b83c83f7265c91f7506f4bc/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1k0dhf6b1zxqnp7zppdq7ps1sr1mgqid1l1qg95bx64k99d39rkk";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d369d2486f85576eec4ca41d277391dfdae21ba7/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "104ilbmwpkbpqpw83c9ywj53z9zpiacpb5zhk8s9d4amfvl0qq1b";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9aefa433dfa28dd74b83c83f7265c91f7506f4bc/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0hzs1vbqma3k9ypgs8zivy08pzf2i9r3d0zjyhbg26c2h8kapli6";
     };
   };
 }
