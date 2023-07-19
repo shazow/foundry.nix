@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-07-17T21:12:33Z";
+  timestamp = "2023-07-18T21:29:57Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d231a90f708578ee544da09e1110e39fe8ab65fb/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1pi85ipnrl1x0fzsppi3wkfdq7jhlxz63aa6qibsx50c36s75pb5";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0e72b71580da73d3d89c9b9aaa1bc832831e0da7/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0vldyxnqaivapvp2drj36kzn4hx8y9mwbckfgxhc36zvqjzrf6y9";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d231a90f708578ee544da09e1110e39fe8ab65fb/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1klcg1277cp206nhrvbi01zvib9s1zghcj6aspik84wj9ss29z2k";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0e72b71580da73d3d89c9b9aaa1bc832831e0da7/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "06lz5axbsc3gqxjr8phq5ahchp4b649b7vnicb99z9z8dr0lmc64";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d231a90f708578ee544da09e1110e39fe8ab65fb/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "16vq8s1q7mqa8sbdslbkzjmajfkbyz16amlnzr0l15l81v20rmwz";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0e72b71580da73d3d89c9b9aaa1bc832831e0da7/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0r16jxprfshsxzxnvyb8c963h5vbd1msrx6pvfs89l483ggnn428";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d231a90f708578ee544da09e1110e39fe8ab65fb/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0a2hv4sz5k238mrh30nc7ip7bz3i5c7vslnfcarac2gqnn9r6hk8";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0e72b71580da73d3d89c9b9aaa1bc832831e0da7/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "13fr2f9sadxi20n6arw2jxlm45grd5qr8hljjsbbbf8xa4n73z5g";
     };
   };
 }
