@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-09-09T11:34:21Z";
+  timestamp = "2023-09-10T10:05:35Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d5c51a5007805486ee5a456d35865e0ee440c8a7/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1f4sv4wy7yr3r92gl9h8j4s10z8n6lnjdwvj6bcwr2l6pmfzw675";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5cfed63071ef1bb06f90190d2f678f546bfc971c/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0pjyv1l49qxa4d1gdma0z4x4y3kg781gk3ra0y93h75brb89v5pk";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d5c51a5007805486ee5a456d35865e0ee440c8a7/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0j85kaygj895p4y7kj1wd21j21brwx41dcqbr0ab9w8wz0s7bh40";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5cfed63071ef1bb06f90190d2f678f546bfc971c/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "150dz002ili2rajgm79n1kwl2f20zm3xiiazqv9dj8254d4z86ip";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d5c51a5007805486ee5a456d35865e0ee440c8a7/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0h9cpwlsd5db2i6px2dm3c3kg8yq4jl8nprr1yvqk52ycrw6lmfr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5cfed63071ef1bb06f90190d2f678f546bfc971c/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0bh81cbkhk9w1xawqdg4z0bbhq513s12znzlqvxlh0zwv7a584ir";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d5c51a5007805486ee5a456d35865e0ee440c8a7/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1m4mpp9awiifiy0hyjbiaddg5fdg78jd23nax7fi8wvnzcm7f3qr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5cfed63071ef1bb06f90190d2f678f546bfc971c/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1dj1pgk9crcssfr36z0fc6ivvfjp3ps7w5v1c56371rrx04r937v";
     };
   };
 }
