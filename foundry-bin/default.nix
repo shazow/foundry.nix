@@ -24,6 +24,9 @@ in
       ]
       ++ lib.optionals stdenv.isLinux [
         autoPatchelfHook
+      ]
+      ++ lib.optionals stdenv.isDarwin [
+        libusb1
       ];
 
     postPhases = ["postAutoPatchelf"];
