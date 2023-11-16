@@ -5,19 +5,31 @@
 set -euxo pipefail
 
 GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
+binaries='["foundry_nightly_linux_amd64", "foundry_nightly_linux_arm64", "foundry_nightly_darwin_amd64", "foundry_nightly_darwin_arm64"]'
+binaries_filter="[ .[] | select(.assets | map(.name) | contains(${binaries})) | . ]"
+
+# Return only releases which contains all needed binaries
+releases_json="$(curl -s "$GITHUB_API_URL" | jq "$binaries_filter" )"
 
 SCHEDULE=${1:-}
 if [[ "$SCHEDULE" == "monthly" ]];then
-    release_filter="map(select(.created_at | match(\"-$(date +%m)-01T\"))) |"
+    # Return the most earliest release at the start of the month
+    release_filter="[.[] | select(.created_at | match(\"$(date +%Y-%m)-\")) ]| last"
     echo "Using monthly release filter."
 else
-    release_filter=""
+    # Return the most recent release
+    release_filter="first"
     echo "Using daily release filter."
 fi
 
-latest_release_json="$(curl -s "$GITHUB_API_URL" | jq "$release_filter .[0]")"
-tag_name="$(echo $latest_release_json | jq -r .tag_name)"
-timestamp="$(echo $latest_release_json | jq -r .created_at)"
+target_release_json="$(echo $releases_json | jq "$release_filter")"
+tag_name="$(echo $target_release_json | jq -r .tag_name)"
+timestamp="$(echo $target_release_json | jq -r .created_at)"
+
+if [[ "$timestamp" == null ]];then
+    echo "Sad month, no build :("
+    exit 0
+fi
 
 get_url() {
     declare arch="$1"
@@ -54,18 +66,3 @@ cat > releases.nix << EOF
   };
 }
 EOF
-
-# WIP generalized solution for when we no longer rely on nightly releases
-#
-#count=0;
-#while 1; do
-#    asset_json="$(echo $latest_release_json | jq .assets[$count])"
-#    if ! $?; then # Finished iterating over assets
-#        break
-#    fi
-#    url="$(echo $asset_json | jq .browser_download-url)"
-#    hash="$(nix-prefetch-url --type sha256 "$url")"
-#    sriHash="$(nix to-sri --type sha256 $hash)"
-#
-#    # TODO: The rest of the owl
-#done
