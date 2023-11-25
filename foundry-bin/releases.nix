@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-11-23T15:39:45Z";
+  timestamp = "2023-11-24T18:22:42Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-55dd5de4948a92440296f330c779d4ed778c0123/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1x8v4jxvqvd3dl2dd5v15mgz3wa8inpcrkpdm3m1dzxfxbcpa62l";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-890bc7a03fd575fbfaf02a8870241f34760e65f1/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1rlhkls78jg8p8lp7cayrvcmzjg3sswbpv02v8s3fzr99h8qrjjc";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-55dd5de4948a92440296f330c779d4ed778c0123/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1c5346fabyvjbm002srpd7c1kq75c11mpznr66dl8lryv1az1w2y";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-890bc7a03fd575fbfaf02a8870241f34760e65f1/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1dl6gaif2qg0n3l09c2649y415p2llb66qg7rcpcx3fvs7as2rm9";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-55dd5de4948a92440296f330c779d4ed778c0123/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "03id32bnlak7f5jk4606s6dh18divslwr7rc1mz4vj4hh1zlnvkq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-890bc7a03fd575fbfaf02a8870241f34760e65f1/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0nzw0snnaxqi8p66bn6fqwg22marynfbq0j1sbaw5d0zl8par36x";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-55dd5de4948a92440296f330c779d4ed778c0123/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1qjzbyy7my8pdab326fvrzbxmvmj16xa7lf23di8gjdac1wp36vc";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-890bc7a03fd575fbfaf02a8870241f34760e65f1/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1nlvqrzxvcrz9wick6fjyy1972zhafk2w03skazzs2kjb206agdl";
     };
   };
 }
