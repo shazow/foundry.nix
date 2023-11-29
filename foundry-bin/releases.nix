@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-11-27T23:56:47Z";
+  timestamp = "2023-11-29T00:00:08Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-23aa3034f1499b274da52fa0d06b071a5bf9d3de/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0q6ky7rgz2ia2gc192mcw0dw368ppkcnn646yfp296g7yv229s3q";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7d2901cff66aa57cbbd0ebfdabfdb5d670dcdc7/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1pv02a6av5ippafrhpq1asqgpswphp3y6b2zifml9iq4l12wiw96";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-23aa3034f1499b274da52fa0d06b071a5bf9d3de/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0glqb0yklw014w6amxbs3nws5qw591s4z2bn6l50c2xg02gzm42z";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7d2901cff66aa57cbbd0ebfdabfdb5d670dcdc7/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1qkv3rg8h080qa4nhk9115zb94y24k3w9s9d7pwgyxi1q9c4mby3";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-23aa3034f1499b274da52fa0d06b071a5bf9d3de/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0g3f11ddlcswsggr54ijsyc9djrmiv08crvcj3ymf3xw87llr8dh";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7d2901cff66aa57cbbd0ebfdabfdb5d670dcdc7/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1l17bbk3y0las7hvfpgxdfxdq92asmfskqiyksffls00hrwf5gs0";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-23aa3034f1499b274da52fa0d06b071a5bf9d3de/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0yafk3z67lvr70jwrg5jdcnqf0dvivapiv3a2vlw9521wdszx0qc";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d7d2901cff66aa57cbbd0ebfdabfdb5d670dcdc7/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0lkb843n31mj63g0f0wa6584jcwdq4swyjcn3a26i39in55pbdr6";
     };
   };
 }
