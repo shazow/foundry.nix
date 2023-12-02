@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-11-30T15:58:43Z";
+  timestamp = "2023-12-01T22:58:51Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f5c91995f80b5bf3b4c29c934d414cc198c9e7a8/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "04lxqfzf3zn21lvgbbk34inwx6fbzyk90v0zqwi2i458m3ms8l8c";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0d4xk5w7cklz4x9i8nvl61xq5phb80s6ns2763g37mmxj53vwv38";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f5c91995f80b5bf3b4c29c934d414cc198c9e7a8/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1s8as94h79x9qmcl08c8m6nf4qjhpgxcn7mbx2jx8jci9wnlycm7";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0lhkgal97bgxarc9ljm5b67r0yl5dkr6dbx315a9zqjp8ihnpcp2";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f5c91995f80b5bf3b4c29c934d414cc198c9e7a8/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1cclrfxsypfcxjaj0ra11wswh2nlgv7wk6yha5ffimn49rrxx1q4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0sh47sh24hpb06d4iqxjvzdjvn6iiyq40006vv0k7v8ybhqqq8zh";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f5c91995f80b5bf3b4c29c934d414cc198c9e7a8/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0kfzha8hgz93jb7radbbdlqwjyd534hlqspk9f730zb7h0i4246f";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1fvhd1bmmcwza5m3lxhyr256fm4x2122kmyk5n4n2h22fsbcblmr";
     };
   };
 }
