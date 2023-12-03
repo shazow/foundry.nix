@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-12-01T22:58:51Z";
+  timestamp = "2023-12-02T14:27:15Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0d4xk5w7cklz4x9i8nvl61xq5phb80s6ns2763g37mmxj53vwv38";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-87bf7e4dc29e5714b62b703b29c1605c06b0e7d4/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1my05vzii2mfz9094dvsikklpnr8p264lscpj9p4vfxw5nn67fdb";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0lhkgal97bgxarc9ljm5b67r0yl5dkr6dbx315a9zqjp8ihnpcp2";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-87bf7e4dc29e5714b62b703b29c1605c06b0e7d4/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "021w9px3hcn6vi9c07llk6s4378yxa1ych1yknac2zsplk6q7y4x";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0sh47sh24hpb06d4iqxjvzdjvn6iiyq40006vv0k7v8ybhqqq8zh";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-87bf7e4dc29e5714b62b703b29c1605c06b0e7d4/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "07hjz39ls9gvr4bvm0ikyq1nmpk06kix0kmwjq6aidnfs72j8dzl";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5b7e4cb3c882b28f3c32ba580de27ce7381f415a/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1fvhd1bmmcwza5m3lxhyr256fm4x2122kmyk5n4n2h22fsbcblmr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-87bf7e4dc29e5714b62b703b29c1605c06b0e7d4/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0n8fsay8gxb9l33fngmdccj7vlc2853hsi687371933ra21krb97";
     };
   };
 }
