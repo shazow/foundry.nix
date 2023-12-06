@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-12-04T23:13:41Z";
+  timestamp = "2023-12-05T22:56:19Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-13af418e724e141ae7dfa7957476d691eee7d0e9/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "015wzf63m5rjxb22z5456x4w00bf1i6npzxfr272j84j3p6hhwdd";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fdad9fb0dde45d3476fc5d1fe6f40e8dc7c17caa/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0kyl9xd3x47wfy9qi5rr4yx3ih81ab3jxji9g3b2csn01fy8wsyk";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-13af418e724e141ae7dfa7957476d691eee7d0e9/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1skmlbkvwcvnljr2a2bg503gw429h2l5fm3z189ns4lzr9fd42qh";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fdad9fb0dde45d3476fc5d1fe6f40e8dc7c17caa/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "027mk4h57h5v2i707zclp4q57cav4qyqjq5sbyx9b5x7ddgvrczv";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-13af418e724e141ae7dfa7957476d691eee7d0e9/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0ff9cqjhf871fkphfw4s6dng961avg6mfqj9fnnbwk50rgwvgrlp";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fdad9fb0dde45d3476fc5d1fe6f40e8dc7c17caa/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0j26hy9j668brbrd0b54wxq1lq646p6rp9nvlzvm7xa4ya6qsxiq";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-13af418e724e141ae7dfa7957476d691eee7d0e9/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0dnr7nvdhzpiczky0pjj4nwp4ld7gl1r5gw1w1q9ghzdsx9r9pwm";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fdad9fb0dde45d3476fc5d1fe6f40e8dc7c17caa/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0lp9bjxjp92ry71ak25amv5fpdkm926wpa3l0x9606l213wb25x8";
     };
   };
 }
