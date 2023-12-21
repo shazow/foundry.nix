@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2023-12-19T14:30:41Z";
+  timestamp = "2023-12-21T00:06:44Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-eb2141c6b756e06437b837294d6fa485cb3916ef/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "06z0s79yydqy9vql9l08hazbq1fhq7igzvjylagc0rlkpvyc5xj1";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-df49ddda8591c666d6b32dc0696db727a0eaa65d/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0m5w26mxfmadivlcfkxpaqkil1m1q07m6x09hx94r43lc484885v";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-eb2141c6b756e06437b837294d6fa485cb3916ef/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0ny2l8jj8nljf72ry60ad5wikcbcg9ll38b3mc2lb6awpmdvwmgh";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-df49ddda8591c666d6b32dc0696db727a0eaa65d/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0q79birdkwvwgh1bf10rnipwdz8yq5hppi392m8pa6a669rbk2q5";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-eb2141c6b756e06437b837294d6fa485cb3916ef/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "196pf2ff3wza2m1gv11fg348g776566f5lr1kri6fpi8pfca31ri";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-df49ddda8591c666d6b32dc0696db727a0eaa65d/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1cpna2qk7yx5f6ajfri40wg69pa8g7mg3jjimcgm7vhwv0pck35n";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-eb2141c6b756e06437b837294d6fa485cb3916ef/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "11997i4p19jryr54b24qf80170fxcg1x0ap81ligwbgc5vrimllj";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-df49ddda8591c666d6b32dc0696db727a0eaa65d/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1qrz5bj10ls6nc7z92pa23vl4d8nfrpb3hdc50fvb6vc6gx03rkm";
     };
   };
 }
