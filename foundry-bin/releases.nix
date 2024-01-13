@@ -17,7 +17,7 @@
     };
     "aarch64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0ydhvfh712vpq85xm5rw0zhh2244yakby1hb752yz7lawnh67ply";
+      sha256 = "1y957kija1r460qkwfqfzms9qgfy86cmwdxryyybpw2ah6jqcrj7";
     };
   };
 }
