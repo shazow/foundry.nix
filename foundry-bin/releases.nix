@@ -5,11 +5,11 @@
   sources = {
     "x86_64-linux" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1kwndvnfbdwz0xpmxa9ql4pb3m9vsrh39n89v6krwlm6dvag36i3";
+      sha256 = "10fk177jrrw43b2djb87njwr1qlb0y0jdsnjc5qs6d80b42b2017";
     };
     "aarch64-linux" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1j9i3445fsz3i5q98rjp9ljqr1rb481kka0wfy0k408ill7sawsl";
+      sha256 = "16mswm3lvi7qgkgzhz8yjka1b8y2wy3ldrxrkzlagw1hn4x0mwsh";
     };
     "x86_64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_darwin_amd64.tar.gz";
