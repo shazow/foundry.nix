@@ -25,6 +25,7 @@ fi
 target_release_json="$(echo $releases_json | jq "$release_filter")"
 tag_name="$(echo $target_release_json | jq -r .tag_name)"
 timestamp="$(echo $target_release_json | jq -r .created_at)"
+node_id="$(echo $target_release_json | jq -r .node_id)"
 
 if [[ "$timestamp" == null ]];then
     echo "Sad month, no build :("
@@ -43,7 +44,7 @@ get_hash() {
 
 cat > releases.nix << EOF
 {
-  version = "0.0.0";
+  version = "gh-node-id-${node_id}";
   timestamp = "${timestamp}";
 
   sources = {
@@ -54,7 +55,7 @@ cat > releases.nix << EOF
     "aarch64-linux" = {
       url = "$(get_url linux_arm64)";
       sha256 = "$(get_hash linux_arm64)";
-    }; 
+    };
     "x86_64-darwin" = {
       url = "$(get_url darwin_amd64)";
       sha256 = "$(get_hash darwin_amd64)";
