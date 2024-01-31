@@ -1,6 +1,6 @@
 {
   version = "0.0.0";
-  timestamp = "2024-01-29T23:58:24Z";
+  timestamp = "2024-01-30T22:30:12Z";
 
   sources = {
     "x86_64-linux" = {
@@ -13,11 +13,11 @@
     }; 
     "x86_64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0z768rr0fkl69p9wz0qdiyc7a582hf6xyl9fl67vwqhffvpx8m1j";
+      sha256 = "0axbrzazh2yffn622ghxy6pi2pmbcjzyin56agd0qaqa583wlakv";
     };
     "aarch64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1g3rc8wys5c1pc2ps5xyy6041mkrwhiqxa8m2hyb1chpb4s8ih4f";
+      sha256 = "14ls4g8b0bh67zln81qkqlp4dmph3ai856yw8jbmm1z7afk3rq0i";
     };
   };
 }
