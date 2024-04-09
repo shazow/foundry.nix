@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-04-07T08:48:16Z";
+  timestamp = "2024-04-08T22:19:16Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-72bc4f4e616c6e2b79ee3582301fbb1d38660857/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1bfqrvbn3lmp6fmaizhyyxiajs6yqza4ml5kswf2c8spf41ij5hp";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-14daacfe40565b19bdfc3b78c6cf1775f54529da/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1qcaiypk77w5zbhzgix94rx440p3c5xn6x22i27n4m8drm529j1j";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-72bc4f4e616c6e2b79ee3582301fbb1d38660857/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0290pvqg3n0gmq65w9723b8g1gprr25d61j98hvrqj6a3p6gdmfz";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-14daacfe40565b19bdfc3b78c6cf1775f54529da/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "15666lj2njcjz8z0cjrgqr5c5f75xnnwnmf34h1dkh060klss7r9";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-72bc4f4e616c6e2b79ee3582301fbb1d38660857/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "08li6hz2i928g1a88dd4k9q35wv2v1jl7y647vk7i3lzsff1cja8";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-14daacfe40565b19bdfc3b78c6cf1775f54529da/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1b7rmlyappsykmxb6j1sfr503sr7z8518hbn08bqwlinz5x4jsig";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-72bc4f4e616c6e2b79ee3582301fbb1d38660857/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0mqkbhhaic0pp4ksq8cj9y8ybk6dcj4g261zfjjsm3xlkq00wkn9";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-14daacfe40565b19bdfc3b78c6cf1775f54529da/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0blcj4vcgavp9sbsv9g6899q2p850xnr8h419hx3vl9l8891i2xv";
     };
   };
 }
