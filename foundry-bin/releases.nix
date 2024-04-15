@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-04-12T20:48:36Z";
+  timestamp = "2024-04-14T12:37:03Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89f0fb923773cf0f8f966290e579bae92f505077/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1h10d0xgisd04zsv6ypn0vbrahxq56vdjjpwc6d3cwck5xn9qhpf";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1ca9b854ef261d167b802da4a11665f6c3e26c4b/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1y2qw72zpn5p64ffwhafnw3ga2vlc2bg361wcy3m38yw5bc3pxwa";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89f0fb923773cf0f8f966290e579bae92f505077/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0chs7pwkx8rjc6m42svhc3p053yvb38kw36i9gs3xcg6hwn7glqk";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1ca9b854ef261d167b802da4a11665f6c3e26c4b/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "19815zrv0pg12k34nyd8vi0lpwkpha7vrsr4nn63q1dygrzvcg42";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89f0fb923773cf0f8f966290e579bae92f505077/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0bd8fk68kwjph1cak5l1a81xmibl0c766p8p4l617y9y7lkgmdmq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1ca9b854ef261d167b802da4a11665f6c3e26c4b/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1dw2qipi2iv33dgsxw8vmwmi282ynflj86nw92y00ybd1nwm8khg";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89f0fb923773cf0f8f966290e579bae92f505077/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0hnkw91qf0cngzkijyxfnv01wrnclg48cxzlak1jjci39591gn1k";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-1ca9b854ef261d167b802da4a11665f6c3e26c4b/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "13jfsflcbbfy03akr56sdm10s0pbn82vbipccrvnn3zr7n41lpin";
     };
   };
 }
