@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-04-23T22:56:29Z";
+  timestamp = "2024-04-25T00:05:14Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0ea59cae26d945445d9cf21fdf22f4a18ac5bb2/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "031rmaiscd9qb6zy1mf9vhlkf9jyl84qc92i2xgp9wwfrz3rzss5";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e01038f35750b4a41b1eda5a4ea3da976027eee2/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1nhsb844igvrbns90vd4bq4jdbz3x0aa2q9cvkps70jmkp4fqpgs";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0ea59cae26d945445d9cf21fdf22f4a18ac5bb2/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "031hw4bd5fm30rpwya9mb7qrkb98588zsrswy94z70pzrxb9b79g";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e01038f35750b4a41b1eda5a4ea3da976027eee2/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0mab6iccbvms7gfsjq7bj2w681jksv4bkz9rdv537di7m31g46jy";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0ea59cae26d945445d9cf21fdf22f4a18ac5bb2/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0f8g2k5y61dg943q8vn8h75adyzgcjacqr1d3k1x3hdjvlqh7v5m";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e01038f35750b4a41b1eda5a4ea3da976027eee2/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1fnji2xmasyxy5qsmknq6rgm5isqdvpl4phk6fqy8h31mv2iqr9j";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0ea59cae26d945445d9cf21fdf22f4a18ac5bb2/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1zn8vp8c0495zmyy3hcdmmxi4a3pd5zx59qqc9p3dl4s444ljr6c";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e01038f35750b4a41b1eda5a4ea3da976027eee2/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1fs48lk3m1dfp1053a4zqfpg52hcdq51cash854w375ifldd9ary";
     };
   };
 }
