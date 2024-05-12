@@ -5,19 +5,19 @@
   sources = {
     "x86_64-linux" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly-503792a1dbadd901a4c02f6fcd1de1caff1573ff/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1d9vl7jwnzx7lnnz381sn82r1bhqhhfjy9d3fb3mrs3540fv9k8p";
+      sha256 = "1slsp4jp4iinrnjh1rys7c9rkgdpry9ch4hhpqdbxjv0i8zhpgv6";
     };
     "aarch64-linux" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly-503792a1dbadd901a4c02f6fcd1de1caff1573ff/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1bzr3md2z728f026shv4jvkjybimhjgbw5clmadx7b9kcigna2nl";
+      sha256 = "1ai8nw2cz51iqfvwkvgqp1qbgkcp57h808rzpi6hsbpphmi6z4al";
     }; 
     "x86_64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly-503792a1dbadd901a4c02f6fcd1de1caff1573ff/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1wgr2nlz7dfww3a7db01sjh0rfd746m1byn62ib7ib5fdw0a1r2v";
+      sha256 = "0f5r64j7ahnh0mmssbglyjap8xfmvhwy735wdlzc7gmm7fdhb6py";
     };
     "aarch64-darwin" = {
       url = "https://github.com/foundry-rs/foundry/releases/download/nightly-503792a1dbadd901a4c02f6fcd1de1caff1573ff/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "155zaccay6qc1a37hqj64fjd9n9jc7c3z3jm8j52wra7fn742j6m";
+      sha256 = "1z3qybl0y5r86dlqv8wqrqilkcm3br7srsf0nfz9bp7bzh8acwd0";
     };
   };
 }
