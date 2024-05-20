@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-05-16T20:27:54Z";
+  timestamp = "2024-05-19T08:46:09Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-467aff3056842e8d45bc58a353be17349f0e8651/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "17j1n8684fdznw9k5wkr3c1yb6jm805zm55gvsni0da33fgmj2bg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-54d8510c0f2b0f791f4c5ef99866c6af99b7606a/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "12nffc2l3zg806iv8nim615s8hpgrylqk2lbwlvzc2hkvmj50995";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-467aff3056842e8d45bc58a353be17349f0e8651/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "13avq4bv3w3ng45vfj2027fnz695jdcgkz0iqria23zaafmspazh";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-54d8510c0f2b0f791f4c5ef99866c6af99b7606a/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "14nrw1bp2c6khvn8gyva38r6rzlkwjlg2702iwqkr4f1xgsbkcgc";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-467aff3056842e8d45bc58a353be17349f0e8651/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "03yky264b8p5vfc6vw2x0iafh5lflb9m9bfwb91mymsn3vh8vnki";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-54d8510c0f2b0f791f4c5ef99866c6af99b7606a/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1mcslkk9rdvvi6159lv71a6xnwfr0c3nqzhi6jr5jds11j1n9h1n";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-467aff3056842e8d45bc58a353be17349f0e8651/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0xl6xsq3qzqpwr6i15ahimfd3bck9b7j683qifvq0x9vccpzypp2";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-54d8510c0f2b0f791f4c5ef99866c6af99b7606a/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0r9y0ysifxzb2779wjzqm0vdv4xdwrk568lh2qabf86j3g8b23qi";
     };
   };
 }
