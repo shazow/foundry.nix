@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-05-29T12:17:18Z";
+  timestamp = "2024-05-31T22:07:01Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5494c33bc7977b3537bd296e375431d938d44ca3/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "199czjfnyicadiijp0simjg5kanqzddm8dmdwkm7shd3wj8k8sl4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f479e945c6be78bb902df12f9d683c3bb55e3fb0/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "05g8ba34c69q477h8gw7ygplih9b5kb0hdkvx517a5jk0wsgfh78";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5494c33bc7977b3537bd296e375431d938d44ca3/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1j14xvv2i82720a2isq6wxmydss3z8s1i0ry5pwm9w7avhbfkaq4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f479e945c6be78bb902df12f9d683c3bb55e3fb0/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "09sgp1zvn7ymngd4bwlms9r3wzwaagr7impi7jg8jkqh0y0i0p0m";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5494c33bc7977b3537bd296e375431d938d44ca3/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1k26rl8gjwac6q81m9dk2fk4h45a3mrji30gkyc8ms4praa658lf";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f479e945c6be78bb902df12f9d683c3bb55e3fb0/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0w5phkmc82g29fndv4d8p4igyj4dwvblwxkhd2ypyai7ys673jb6";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-5494c33bc7977b3537bd296e375431d938d44ca3/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1brdmzrbjvj23nb7n7mw3hqz0abq86hx9h26kl1xsf2w2ywkhiyg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f479e945c6be78bb902df12f9d683c3bb55e3fb0/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1dsspakrx912dk3026x2b679z42qiv5nh2l0f6i8jccgr2zw0n6p";
     };
   };
 }
