@@ -104,9 +104,9 @@ And edit the `devenv.nix`:
 
 Then run `devenv shell` to enter a shell with foundry binaries present.
 
-You can run `devenv update` to repin to the latest foundry release from this repo.
+Running `devenv update` will repin to the latest foundry release from this repo.
 
-And you can run `direnv allow` to automatically enter a shell with foundry binaries everytime you cd to this directory, if you have [direnv](https://github.com/nix-community/nix-direnv) installed.
+You can run `direnv allow` to automatically enter a shell with foundry binaries everytime you cd to this directory, if you have [direnv](https://github.com/nix-community/nix-direnv) installed.
 
 ## NixOS Caveat
 
