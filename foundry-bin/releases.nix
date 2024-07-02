@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-06-30T00:14:14Z";
+  timestamp = "2024-07-01T18:55:12Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e65b5b9a5fb71ee06753e43a56c0f03c4aeb4c07/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1z7h2ncx5s146h22swp6gsbk4j1dnw3np11alzsyi6swgs779ncr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-20b3da1f22e9f62f6e3406a5d582ad4aa509122c/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "152dv8003x48zs1k0s9bhzkbiqlwny1j2hh0ybcm5mpa907dlrbr";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e65b5b9a5fb71ee06753e43a56c0f03c4aeb4c07/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1r889vq400sn4lmjvhp020gn6fgw1pyp0rpc0193p5wqfkf07224";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-20b3da1f22e9f62f6e3406a5d582ad4aa509122c/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "10kqykbyfnv43a2bzk64nkpmy31w9g355vk1rswbw18x2iva9yv9";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e65b5b9a5fb71ee06753e43a56c0f03c4aeb4c07/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0ngzb15ffa5r8ayib457snmvz1c4mgxpqn4q8cglirjhvcsr1744";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-20b3da1f22e9f62f6e3406a5d582ad4aa509122c/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "07ycbw875fyadsskahwak62hnxq96ryp3farw4yl7767qgxhvkpf";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e65b5b9a5fb71ee06753e43a56c0f03c4aeb4c07/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1qfl5lcbz40l71qzmd0s0ba7wraxa7fwbcp3ba8brvpa35xzr9gn";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-20b3da1f22e9f62f6e3406a5d582ad4aa509122c/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "018mgl8j3lcsl77a7ilf7p4km46ffsp9gvw149p2ivh4phl957kv";
     };
   };
 }
