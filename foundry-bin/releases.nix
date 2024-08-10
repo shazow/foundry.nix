@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-08-08T00:00:15Z";
+  timestamp = "2024-08-09T15:35:39Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7f0f5b4c1aa75dc4fd2eb15aca9757491d885902/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0cr33kxd6bwbj48gyb82m3px78mniapc0nvjlzljslq91mq7lr6q";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1d1l15cdr3rwzarcx4wja4x9p8v0qs0maccfd59x6344lizihdkg";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7f0f5b4c1aa75dc4fd2eb15aca9757491d885902/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0kb8qwy8szjgdh0axy5y05a369mrk2p60pc07qpxln7cb3mgz5c7";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "14zq7qn5aq9nw53qx64x497dv625pnlmjk17vdy787wgl54whzi4";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7f0f5b4c1aa75dc4fd2eb15aca9757491d885902/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "18gkl47v2wvgq8z4zqikd7slx011jc68gaskkycrq65cpb9rkr02";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0g385a8lbz92f2vyair1995df0gjw5v6791rpr3ahn1xavl4g82p";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7f0f5b4c1aa75dc4fd2eb15aca9757491d885902/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0jqp89pij72vrxm21fxshhmz71y0v916ddm16mvlvw3p724f1pi4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0538im1fp5vx45ng81c88wjl03cnliv6ava1ya2xxlnmy67zyzxv";
     };
   };
 }
