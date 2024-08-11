@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-08-09T15:35:39Z";
+  timestamp = "2024-08-10T11:19:12Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1d1l15cdr3rwzarcx4wja4x9p8v0qs0maccfd59x6344lizihdkg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-03c20289eff8d90e891f9605fd5729ae677bf303/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1rmndqjc8rlh0ms71h0mhmj631za63cwyfwkh9sbwg1s5lz6kjry";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "14zq7qn5aq9nw53qx64x497dv625pnlmjk17vdy787wgl54whzi4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-03c20289eff8d90e891f9605fd5729ae677bf303/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "06yhbnsis33nb2zq693z06b61y2ynl1a8v7br2r6n8fgrcrr96kz";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0g385a8lbz92f2vyair1995df0gjw5v6791rpr3ahn1xavl4g82p";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-03c20289eff8d90e891f9605fd5729ae677bf303/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "042bmqbcxnyc8cg83whikwyfnkjpxb54hzmswk9zm1n8vh20fa1i";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-77158ccee1cc0be8b647021b868a14314676a81a/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0538im1fp5vx45ng81c88wjl03cnliv6ava1ya2xxlnmy67zyzxv";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-03c20289eff8d90e891f9605fd5729ae677bf303/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1pryxvbgxksw3smy49lhdiqh2dl805jhsb2vzc6za0adgqr5nzdj";
     };
   };
 }
