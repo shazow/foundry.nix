@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-08-17T16:53:01Z";
+  timestamp = "2024-08-18T00:50:13Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bb5864d86096410a0d2c4d511f825caebb8c480/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0w561bncf09nd9bq38x35a6cbq38axiqh4rrjirwm08314xwwmk9";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8549aadc66bac1b480a303e7dc3fb9309dffb325/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1ffrfdc6m5f8xiiik1x17s9v6akpamwz90awa3571b70153vhx7x";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bb5864d86096410a0d2c4d511f825caebb8c480/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0lvk20icff3ij5n6558szwpn7pj23zkpvgp862lkq6zgyb6qc11m";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8549aadc66bac1b480a303e7dc3fb9309dffb325/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0b5zv4wlj51q5h7jrnxk3cxjsvm2kx49r4384l91v1f7icnvxnaf";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bb5864d86096410a0d2c4d511f825caebb8c480/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1rw35f5pz4ay0dd09n7rcqkrn2dl105gpiph972gy2rsm06ch9gc";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8549aadc66bac1b480a303e7dc3fb9309dffb325/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "19i1vqvdrwh0zhnbcz0f4imwb3g96skvkcq1f1q87rrm25kd6zag";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bb5864d86096410a0d2c4d511f825caebb8c480/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1bnld1rgx8idbpjk83wdhlmycbpd2dp30khsimz9x3ja8njhbq61";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8549aadc66bac1b480a303e7dc3fb9309dffb325/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1zxvbglhnl84sc2z877yrsqszfk7a4dxfjvcbn5qsayxa8li298g";
     };
   };
 }
