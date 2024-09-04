@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-09-02T23:31:19Z";
+  timestamp = "2024-09-03T21:09:26Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d90e997d91532d902b0d6f786ff59777e69efa3a/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1v3gr84zbzdw7x96xiqlqpm23kls4d68m63jnivc9aj63ns4yzfw";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-143abd6a768eeb52a5785240b763d72a56987b4a/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0j1ardc8cf44w9av5ifimy0bz001l0pf6s579kxiijq33c33nh28";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d90e997d91532d902b0d6f786ff59777e69efa3a/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0hi78al077am01biwjyp982bc45k79dbbl2k2dn8pkb8jsdwccch";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-143abd6a768eeb52a5785240b763d72a56987b4a/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "00j10lfqxvsn74x1xvz427118bvvnz46jk53yqpzq67bvc0c9883";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d90e997d91532d902b0d6f786ff59777e69efa3a/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1wz06ihwnwas4f09pliwg8y90w4ilpnhqa7qk907j0vwg4rgcc80";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-143abd6a768eeb52a5785240b763d72a56987b4a/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0bx56hj3cm0w1v0w07n2v0qhdyxfc8d2yiapdbqw2gjv5v6kz772";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d90e997d91532d902b0d6f786ff59777e69efa3a/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "03r4xzj6rgzdspkm6zhsjkqqny67zjcm5p3vxm4r0414sb3m5nb9";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-143abd6a768eeb52a5785240b763d72a56987b4a/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0527z2w6ikb2ccibp72s5ragxd18gp0hdbx884bck97qbl9aghk7";
     };
   };
 }
