@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-09-13T17:03:39Z";
+  timestamp = "2024-09-15T11:11:59Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e16a75b615f812db6127ea22e23c3ee65504c1f1/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1ymcpq3hk24l6fm4sdysm8148baz05gwpf6zcf9bk0l9vhhg20kx";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "12mazk3b7bd6lb5b5rl1zv1h7na1r65lw8pd4a2s3qyqvb03cs0g";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e16a75b615f812db6127ea22e23c3ee65504c1f1/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1625yc6n9klaqf1lny2ngglrai50rn7l0avdfllsg2rm2vx7v13p";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0cl9b0cg7s2k7ai83x9j4dsr59v5803xlmnl0mb78crmfzjksd6l";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e16a75b615f812db6127ea22e23c3ee65504c1f1/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1cmc9zcc2zlzf00qr4nj9g15q0850sajp6kynk1zxpdkbr0990y9";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "07jpwbpwgfvsv1wdcl51sahjjddcnmd4v7g2dwpy7kpv5dh16iqp";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e16a75b615f812db6127ea22e23c3ee65504c1f1/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1w2r6dcympn4bs0l94880pfw8mkzyn3zmxip0y8frd7ibkglsnvd";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1wrc5vv0psf89gr3g4drjwrxb0hkirvx7r12s0slycksjmr065yv";
     };
   };
 }
