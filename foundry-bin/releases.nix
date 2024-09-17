@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-09-15T11:11:59Z";
+  timestamp = "2024-09-16T17:09:25Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "12mazk3b7bd6lb5b5rl1zv1h7na1r65lw8pd4a2s3qyqvb03cs0g";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-41d4e5437107f6f42c7711123890147bc736a609/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "05jy39ygdzz9lhpn7makyx27fcqj65ybdf4ilm4zzsrvql1kkwy6";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0cl9b0cg7s2k7ai83x9j4dsr59v5803xlmnl0mb78crmfzjksd6l";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-41d4e5437107f6f42c7711123890147bc736a609/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "186b1wzjj97ad4cr32nkanyjc0mxsc3hh37lvpd9ma1zn9j2x1qy";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "07jpwbpwgfvsv1wdcl51sahjjddcnmd4v7g2dwpy7kpv5dh16iqp";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-41d4e5437107f6f42c7711123890147bc736a609/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0cdhb9cgpx4720iplpigypk8r0q94szwlq3sskykb0gmvyllxsl7";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-280aa26c3a6d71c442d32b45920d30c62f9d6fbb/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1wrc5vv0psf89gr3g4drjwrxb0hkirvx7r12s0slycksjmr065yv";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-41d4e5437107f6f42c7711123890147bc736a609/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1h939vhb6n74vnvy9pz7nw944x5hv9xl5nnc1fggslzm5sw900pz";
     };
   };
 }
