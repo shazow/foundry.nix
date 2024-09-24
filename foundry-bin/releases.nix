@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-09-22T14:52:20Z";
+  timestamp = "2024-09-23T17:29:26Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a592f7a9b93c7cc099341e6e9dfee3f2bb0b8748/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0p74pzmskdmkbvhsjvhrjran0apq5nabk88kn7k4f1gafdkya2hm";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-07a1f67114565968b188d1abf42fe2c5c57bfca5/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1pyky79wflplfvvwpk1f5wmdnvg143rz9v76x6h899qxq3qqgf7x";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a592f7a9b93c7cc099341e6e9dfee3f2bb0b8748/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1h05iif2hxrmvjl8jdh8n5zh53pxml85vg3sxpz9kskmgj4fcigy";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-07a1f67114565968b188d1abf42fe2c5c57bfca5/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "004hnav4z54sa6wwzhhr10fasi1a0x77z1frcq4r3gcsi4165ry9";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a592f7a9b93c7cc099341e6e9dfee3f2bb0b8748/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0sni7zl7g9r74qsdn0q705ff6wa6lrb39682q3vk7bgnzcrwsaiw";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-07a1f67114565968b188d1abf42fe2c5c57bfca5/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "018ixckxplh15yi21ivccyjwd3z4x0hj4ns5nvgqim10z1h8z77y";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a592f7a9b93c7cc099341e6e9dfee3f2bb0b8748/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "01d9c7mxizf1rawy64niavr9vfx3rfk7b8ynmria7krdjkvvnahi";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-07a1f67114565968b188d1abf42fe2c5c57bfca5/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1rwwymr3fc1bpza1gsrw3y2j6aix2v6apixblrv5jpgbz3z965g1";
     };
   };
 }
