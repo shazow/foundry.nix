@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-09-26T18:14:45Z";
+  timestamp = "2024-09-27T18:48:48Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9dbfb2f1115466b28f2697e158131f90df6b2590/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "15jyhdqa707fj1g5pdhh1jk3d6bhibbfz8vlxpziddqlp63wqs56";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-25f24e677a6a32a62512ad4f561995589ac2c7dc/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0mm7mljk5flda8sjdbsji911fwxk5cas80mdnzxcvlz33vl6sd5f";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9dbfb2f1115466b28f2697e158131f90df6b2590/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1alk82bjy194rc4kr8lfj9igcjdmlh4vvsxh6plxyvzcvj291nr8";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-25f24e677a6a32a62512ad4f561995589ac2c7dc/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0njbifnzhm1f8l6kn2hc571kkldxfsxxrpdniwa4mn5gz0y381vr";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9dbfb2f1115466b28f2697e158131f90df6b2590/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "051rg66gqv0589frrqza36l32ndl8lbkjqxzifrxwyxsvh0798mf";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-25f24e677a6a32a62512ad4f561995589ac2c7dc/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0c5nsk4z5y040gnrqfp649rjmfjxf7c9p9bmhq4va946cxdpsjhq";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-9dbfb2f1115466b28f2697e158131f90df6b2590/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0asfljjy06zkgxn3iab2kp4jc7vf5q7h2s15nc299xsggcsqdzpq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-25f24e677a6a32a62512ad4f561995589ac2c7dc/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0kcs5y1x8h5qxargrvapgv919hcslgc60jc0g1d1m7n5bqk2rd4v";
     };
   };
 }
