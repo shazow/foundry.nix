@@ -36,11 +36,12 @@
         };
 
         apps.default = apps.forge;
-        defaultPackage = foundry-bin;
+        defaultPackage = foundry-bin.foundry;
 
         devShell = pkgs.mkShell {
           buildInputs = [
-            foundry-bin
+            foundry-bin.foundry
+            foundry-bin.foundry-zksync
           ];
         };
       }

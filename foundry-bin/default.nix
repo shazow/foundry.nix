@@ -3,17 +3,17 @@
 
   arch = stdenv.hostPlatform.system;
   releases = import ./releases.nix;
+  releases-zksync = import ./releases-zksync.nix;
   srcAttrs = releases.sources.${arch};
-  bins = ["forge" "cast" "anvil" "chisel"];
-  binsWithCompletions = ["forge" "cast" "anvil" ];
-in
-  stdenv.mkDerivation {
-    pname = "foundry";
-    version = releases.version;
-    src = pkgs.fetchzip {
-      inherit (srcAttrs) url sha256;
-      stripRoot = false;
-    };
+  srcAttrs-zksync = releases-zksync.sources.${arch};
+  commonBins = ["forge" "cast"];
+  foundryBins = commonBins ++ ["anvil" "chisel"];
+  foundryBinsWithCompletions = ["forge" "cast" "anvil"];
+  zksyncBins = map (bin: "${bin}-zksync") commonBins;
+  zksyncBinsWithCompletions = zksyncBins;
+
+  mkFoundry = { pname, version, src, bins, binsWithCompletions, isZksync ? false }: stdenv.mkDerivation {
+    inherit pname version src bins binsWithCompletions;
 
     nativeBuildInputs = with pkgs;
       [
@@ -24,7 +24,14 @@ in
       ]
       ++ lib.optionals stdenv.isLinux [
         autoPatchelfHook
+      ]
+      ++ lib.optionals (stdenv.isDarwin && isZksync) [
+        libusb1
       ];
+
+    buildInputs = lib.optionals (stdenv.isDarwin && isZksync) [
+      pkgs.libusb1
+    ];
 
     postPhases = ["postAutoPatchelf"];
 
@@ -33,20 +40,26 @@ in
     in ''
       set -e
       mkdir -p $out/bin
-      ${lib.concatMapStringsSep "\n" (bin: ''
-          install -m755 -D ${bin} $out/bin/${bin}
+      ${lib.concatMapStringsSep "\n" (bin: let
+          srcBin = if isZksync then builtins.substring 0 (builtins.stringLength bin - 7) bin else bin;
+        in ''
+          install -m755 -D ${srcBin} $out/bin/${bin}
           wrapProgram $out/bin/${bin} --prefix PATH : "${path}"
         '')
         bins}
     '';
 
-    # Adapation for https://github.com/NixOS/nixpkgs/pull/209870;
-    # something similar will go upstream in nixpkgs for all
-    # autoPatchelfHook users.  When it does, this can be dropped.
-    preFixup = lib.optionalString (stdenv?cc.cc.libgcc) ''
-      set -x
-      addAutoPatchelfSearchPath ${stdenv.cc.cc.libgcc}/lib
+    postFixup = lib.optionalString (stdenv.isDarwin && isZksync) ''
+      otool -L $out/bin/.forge-zksync-wrapped
+      install_name_tool -change /opt/homebrew/opt/libusb/lib/libusb-1.0.0.dylib ${pkgs.libusb1}/lib/libusb-1.0.0.dylib $out/bin/.forge-zksync-wrapped
+      otool -L $out/bin/.forge-zksync-wrapped
+
+      otool -L $out/bin/.cast-zksync-wrapped
+      install_name_tool -change /opt/homebrew/opt/libusb/lib/libusb-1.0.0.dylib ${pkgs.libusb1}/lib/libusb-1.0.0.dylib $out/bin/.cast-zksync-wrapped
+      otool -L $out/bin/.cast-zksync-wrapped
     '';
+
+    # ... existing preFixup code ...
 
     postAutoPatchelf = ''
       ${lib.concatMapStringsSep "\n" (bin: ''
@@ -56,11 +69,36 @@ in
     '';
 
     installCheckPhase = ''
-      $out/bin/forge --version > /dev/null
-      $out/bin/cast --version > /dev/null
-      $out/bin/anvil --version > /dev/null
-      $out/bin/chisel --version > /dev/null
+      ${lib.concatMapStringsSep "\n" (bin: ''
+          $out/bin/${bin} --version > /dev/null
+        '')
+        bins}
     '';
 
     doInstallCheck = true;
-  }
+  };
+
+in {
+  foundry = mkFoundry {
+    pname = "foundry";
+    version = releases.version;
+    src = pkgs.fetchzip {
+      inherit (srcAttrs) url sha256;
+      stripRoot = false;
+    };
+    bins = foundryBins;
+    binsWithCompletions = foundryBinsWithCompletions;
+  };
+
+  foundry-zksync = mkFoundry {
+    pname = "foundry-zksync";
+    version = releases-zksync.version;
+    src = pkgs.fetchzip {
+      inherit (srcAttrs-zksync) url sha256;
+      stripRoot = false;
+    };
+    bins = zksyncBins;
+    binsWithCompletions = zksyncBinsWithCompletions;
+    isZksync = true;
+  };
+}
