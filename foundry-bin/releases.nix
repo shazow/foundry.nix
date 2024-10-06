@@ -1,5 +1,5 @@
 {
-  version = "0.0.0";
+  version = "nightly-f089dff1c6c24d1ddf43c7cbefee46ea0197c88f";
   timestamp = "2024-10-05T16:14:48Z";
 
   sources = {
