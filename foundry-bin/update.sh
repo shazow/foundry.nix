@@ -1,49 +1,54 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i bash -p curl jq nix-prefetch
-# Update releases.nix
+# Update releases.nix and releases-zksync.nix
 
 set -euxo pipefail
 
-GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
-binaries='["foundry_nightly_linux_amd64", "foundry_nightly_linux_arm64", "foundry_nightly_darwin_amd64", "foundry_nightly_darwin_arm64"]'
-binaries_filter="[ .[] | select(.assets | map(.name) | contains(${binaries})) | . ]"
+update_releases() {
+    local GITHUB_ORG_REPO="$1"
+    local GITHUB_API_URL="https://api.github.com/repos/${GITHUB_ORG_REPO}/releases"
+    local OUTPUT_FILE="$2"
+    local BINARIES="$3"
+    local SCHEDULE="$4"
 
-# Return only releases which contains all needed binaries
-releases_json="$(curl -s "$GITHUB_API_URL" | jq "$binaries_filter" )"
+    local binaries_filter="[ .[] | select(.assets | map(.name) | contains(${BINARIES})) | . ]"
 
-SCHEDULE=${1:-}
-if [[ "$SCHEDULE" == "monthly" ]];then
-    # Return the most earliest release at the start of the month
-    release_filter="[.[] | select(.created_at | match(\"$(date +%Y-%m)-\")) ]| last"
-    echo "Using monthly release filter."
-else
-    # Return the most recent release
-    release_filter="first"
-    echo "Using daily release filter."
-fi
+    # Return only releases which contains all needed tarballs
+    # This means upstream partial build failures may result in missing bumps
+    local releases_json="$(curl -s "$GITHUB_API_URL" | jq "$binaries_filter" )"
 
-target_release_json="$(echo $releases_json | jq "$release_filter")"
-tag_name="$(echo $target_release_json | jq -r .tag_name)"
-timestamp="$(echo $target_release_json | jq -r .created_at)"
+    if [[ "$SCHEDULE" == "monthly" ]];then
+        # Return the most earliest release at the start of the month
+        local release_filter="[.[] | select(.created_at | match(\"$(date +%Y-%m)-\")) ]| last"
+        echo "Using monthly release filter."
+    else
+        # Return the most recent release
+        local release_filter="first"
+        echo "Using daily release filter."
+    fi
 
-if [[ "$timestamp" == null ]];then
-    echo "Sad month, no build :("
-    exit 0
-fi
+    local target_release_json="$(echo $releases_json | jq "$release_filter")"
+    local tag_name="$(echo $target_release_json | jq -r .tag_name)"
+    local timestamp="$(echo $target_release_json | jq -r .created_at)"
 
-get_url() {
-    declare arch="$1"
-    echo "https://github.com/foundry-rs/foundry/releases/download/${tag_name}/foundry_nightly_${arch}.tar.gz"
-}
+    if [[ "$timestamp" == null ]];then
+        echo "Sad month, no build :("
+        return 1
+    fi
 
-get_hash() {
-    declare arch="$1"
-    nix-prefetch-url --unpack --type sha256 "$(get_url $arch)"
-}
+    get_url() {
+        declare arch="$1"
+        echo "https://github.com/${GITHUB_ORG_REPO}/releases/download/${tag_name}/foundry_nightly_${arch}.tar.gz"
+    }
 
-cat > releases.nix << EOF
+    get_hash() {
+        declare arch="$1"
+        nix-prefetch-url --unpack --type sha256 "$(get_url $arch)"
+    }
+
+    cat > "$OUTPUT_FILE" << EOF
 {
-  version = "0.0.0";
+  version = "${tag_name}";
   timestamp = "${timestamp}";
 
   sources = {
@@ -66,3 +71,13 @@ cat > releases.nix << EOF
   };
 }
 EOF
+}
+
+# Determine the schedule (daily or monthly)
+SCHEDULE="${1:-daily}"
+
+# Update regular Foundry releases
+FOUNDRY_BINARIES='["foundry_nightly_linux_amd64", "foundry_nightly_linux_arm64", "foundry_nightly_darwin_amd64", "foundry_nightly_darwin_arm64"]'
+update_releases "foundry-rs/foundry" "releases.nix" "$FOUNDRY_BINARIES" "$SCHEDULE"
+# Update Foundry-zksync releases
+update_releases "matter-labs/foundry-zksync" "releases-zksync.nix" "$FOUNDRY_BINARIES" "$SCHEDULE"
