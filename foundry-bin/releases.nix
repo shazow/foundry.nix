@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-12-05T22:35:47Z";
+  timestamp = "2024-12-06T07:03:32Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e52076714ace23c7a68e14f0048a40be3c6c8f0b/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "07cjpmyw1chv60ns8dmlgnavnhcav7019gp0xqgb2dsw0qmc9pjk";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-00efa0d5965269149f374ba142fb1c3c7edd6c94/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "044jc73fy0z9vw3ac2dxnb02973iys0brs1bd1l4rzjqxbr6jr3n";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e52076714ace23c7a68e14f0048a40be3c6c8f0b/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1v97pjxvqa7r2q1fz28x5ab7qkyyi9piyzg99klmdidpr45mfmhy";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-00efa0d5965269149f374ba142fb1c3c7edd6c94/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0b96rczlm2r0qli15k117przf12ximwc01v212z5xi9vrm21fhj5";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e52076714ace23c7a68e14f0048a40be3c6c8f0b/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1n2812s148z36biwv4h7cnxqxvy1i2ss13mmp6airrszq7asd3ld";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-00efa0d5965269149f374ba142fb1c3c7edd6c94/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "08qjimvn1dkz6pni88h2qrgafxzkgvln1kh7yrn1bs5yrh6r8s49";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e52076714ace23c7a68e14f0048a40be3c6c8f0b/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1hcrwikyp4gi3n0bj0vbrpqr43cwklxda36p0x2ziyvws4wv3fcp";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-00efa0d5965269149f374ba142fb1c3c7edd6c94/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0byfhfv9p5cxzx34gnx1771xqmv24czxpabiicz6l8pl3vlfrn4i";
     };
   };
 }
