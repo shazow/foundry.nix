@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2024-12-14T08:53:31Z";
+  timestamp = "2024-12-15T03:56:54Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-233bff2f8ef1f958e1676048c85a2bc37efa2241/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1x792qq4vb9f14b88dmh2vpfags9hnbzc1ndzkn0asj76vf3s2mw";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-206dab285437bd6889463ab006b6a5fb984079d8/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1q70y3knalxaacfag1mq67bqiqhafb6i15575yhm7qwk1xakrw92";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-233bff2f8ef1f958e1676048c85a2bc37efa2241/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1wk8qsqwi5qvl0y24nhjv66fvv0x6n6zkbfyi29n1iyg900wfqml";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-206dab285437bd6889463ab006b6a5fb984079d8/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "17i2ciak8jzgf5jklcmsk4dvl788fds0rbq3aw8lf3pwm1vnnng7";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-233bff2f8ef1f958e1676048c85a2bc37efa2241/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1rr6zz6f8q7m1sk3cgxxlkk0hfrnxqyi6dgjgay066bmp444grs2";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-206dab285437bd6889463ab006b6a5fb984079d8/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1h1b6bflk3jg7gwr9iv3z3cdysxq8xzzp7616xi6s4zzrd2yzzkn";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-233bff2f8ef1f958e1676048c85a2bc37efa2241/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "06iq2b62m2431xxiil41kswcrxl243k2s8mcjgbflfsd09n9gpdh";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-206dab285437bd6889463ab006b6a5fb984079d8/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0qvhfk4i896y50218h1gbli010srv9sbkkx2l663v4wqsc2zj8nj";
     };
   };
 }
