@@ -36,7 +36,7 @@
         };
 
         apps.default = apps.forge;
-        defaultPackage = foundry-bin;
+        packages.default = foundry-bin;
 
         devShell = pkgs.mkShell {
           buildInputs = [
