@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-01-03T14:08:07Z";
+  timestamp = "2025-01-05T22:02:04Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8cc2079ab843ca034f04262159098b39144b568d/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1piwj2g2050iq8dqxwsx0wq38lbznq30yvink9nfa3599skayl6n";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a5c5be5cae42b4871d87469b913477f05bf380fe/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "148cm5ji39kilhikh2y2div1yi2ad4n3y0nspj5jzhrrizbwq2gh";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8cc2079ab843ca034f04262159098b39144b568d/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "10syc8vd76smhmgx7zwa2i207fflhdf41d0aapmixs682hp89mvb";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a5c5be5cae42b4871d87469b913477f05bf380fe/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1igy38g91fsq0824659y8s03adxj80vrg9ng9ayn5hsdqd60l9ph";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8cc2079ab843ca034f04262159098b39144b568d/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0d48q4layx3b2dhzfqrm8vsjj9dkhpnv31h5p7pnqva99q87m4ab";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a5c5be5cae42b4871d87469b913477f05bf380fe/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "024pd4jj8fc4a5ccbjvb6x0q93dciahm264bhkyl1ncp0301nbx3";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8cc2079ab843ca034f04262159098b39144b568d/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0lb264s3d502c83q08mc6zp304zzsvjxkpx7bqyq62c8vjj351ps";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a5c5be5cae42b4871d87469b913477f05bf380fe/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1wq91vg460xqccrm5665g762aaqalss2wrc3zq98j8y3lr42gh1w";
     };
   };
 }
