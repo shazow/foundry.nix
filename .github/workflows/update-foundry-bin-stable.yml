@@ -1,24 +1,21 @@
-name: Update foundry-bin monthly
+name: Update foundry-bin stable
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 9 4 * *' # Run monthly, can take a few days for assets to ship after tagging
+    - cron: '6 9 * * *' # Run daily
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: monthly
       - uses: cachix/install-nix-action@v16
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Building package
-        run: 'cd ./foundry-bin && ./update_nightly.sh monthly'
+        run: 'cd ./foundry-bin && ./update_stable.sh'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: monthly
-          commit_message: 'foundry-bin/releases.nix: Nightly update for monthly branch'
+          commit_message: 'foundry-bin/releases.nix: Stable update'
           commit_author: Nix Updater <actions@github.com>
