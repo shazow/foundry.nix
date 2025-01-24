@@ -3,7 +3,7 @@ name: Update foundry-bin monthly
 on:
   workflow_dispatch:
   schedule:
-  - cron: '6 9 * * *' # Run daily, the monthly release detection should be idempotent
+    - cron: '6 9 * * *' # Run daily, the monthly release detection should be idempotent
 
 jobs:
   run:
@@ -16,7 +16,7 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Building package
-        run: 'cd ./foundry-bin && ./update.sh monthly'
+        run: 'cd ./foundry-bin && ./update_nightly.sh monthly'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: monthly

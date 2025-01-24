@@ -1,4 +1,4 @@
-name: Update foundry-bin daily
+name: Update foundry-bin stable
 
 on:
   workflow_dispatch:
@@ -10,12 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: stable
       - uses: cachix/install-nix-action@v16
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Building package
-        run: 'cd ./foundry-bin && ./update_nightly.sh'
+        run: 'cd ./foundry-bin && ./update_stable.sh'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'foundry-bin/releases.nix: Nightly update'
+          commit_message: 'foundry-bin/releases.nix: Stable update'
           commit_author: Nix Updater <actions@github.com>
