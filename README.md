@@ -78,6 +78,37 @@ Then run `nix develop` to enter a shell with foundry binaries (`forge`, `cast`, 
 
 Running `nix flake update` will repin to the latest foundry release from this repo (auto-updates daily).
 
+## Usage: [devenv](https://devenv.sh/)
+
+Initialize devenv in your solidity project directory:
+
+```shell
+$ devenv init
+```
+
+Add this repo as an input in the `devenv.yaml` with the following shell command:
+
+```shell
+$ devenv inputs add foundry github:shazow/foundry.nix --follows nixpkgs
+```
+
+And edit the `devenv.nix`:
+
+```nix
+{ ... }:
+
+{
+  languages.solidity.enable = true;
+  languages.solidity.foundry.enable = true;
+}
+```
+
+Then run `devenv shell` to enter a shell with foundry binaries present.
+
+Running `devenv update` will repin to the latest foundry release from this repo.
+
+You can run `direnv allow` to automatically enter a shell with foundry binaries everytime you cd to this directory, if you have [direnv](https://github.com/nix-community/nix-direnv) installed.
+
 ## NixOS Caveat
 
 The foundry `forge` and `cast` binaries are auto-ELF-patched to work on NixOS, but by default `forge` will attempt to fetch `solc` binaries which are not patched. To avoid this, `--no-auto-detect` must be used with a locally-installed `solc`. See: [foundry#545](https://github.com/foundry-rs/foundry/issues/545)
