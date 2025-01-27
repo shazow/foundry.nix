@@ -3,7 +3,7 @@ name: Update foundry-bin monthly
 on:
   workflow_dispatch:
   schedule:
-  - cron: '6 9 * * *' # Run daily, the monthly release detection should be idempotent
+    - cron: '6 9 * * *' # Run daily, the monthly release detection should be idempotent
 
 jobs:
   run:
