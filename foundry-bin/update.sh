@@ -60,7 +60,7 @@ get_hash() {
 
 cat > releases.nix << EOF
 {
-  version = "0.0.0-${SCHEDULE}";
+  version = "0.0.0";
   timestamp = "${timestamp}";
 
   sources = {
