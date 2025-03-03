@@ -2,7 +2,7 @@
 
 Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge`, `cast`, `anvil` and `chisel`)
 
-This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release, which are pruned from upstream regularly. We also maintain a `stable` branch for the latest stable release, and a `monthly` branch for permanent nightlies that are not pruned.
+This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release, which are pruned from upstream regularly. We also maintain a `stable` branch for the latest stable release that are not pruned.
 
 ## Usage: Showing off nix
 
@@ -43,7 +43,7 @@ Make a `flake.nix` in your solidity project directory:
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     utils.url = "github:numtide/flake-utils";
-    foundry.url = "github:shazow/foundry.nix/monthly"; # Use monthly branch for permanent releases
+    foundry.url = "github:shazow/foundry.nix/stable"; # Use stable branch for permanent releases
   };
 
   outputs = { self, nixpkgs, utils, foundry }:
