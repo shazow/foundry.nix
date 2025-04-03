@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-04-01T21:34:38Z";
+  timestamp = "2025-04-02T13:02:55Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8da73730b4033553589aa67ef404e527149c2e92/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0ay9jcwjhwb0160djg0a9qqhn4g6a5fphp3kr1wcwdzrqp8yhxl3";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89b7470b50f2ea6ae500b8d6000ebc1b62866282/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "12wsjkqqqaxkzasmhcs98lig8cklkfdi895bbcf723kyf7hz4nil";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8da73730b4033553589aa67ef404e527149c2e92/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "03fjm3f1v53d2a8ra0haw8pami9zc864km7chj3gbpj9dwmhsy6j";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89b7470b50f2ea6ae500b8d6000ebc1b62866282/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1hayv15kazygh93apm81w36zwmgsf7cyiqp35dj095c6lccv9xw6";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8da73730b4033553589aa67ef404e527149c2e92/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1i5q7hqv4sv4byj5y9db4qr60mdn1khni9sa8vl2a22l9jvcmkmc";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89b7470b50f2ea6ae500b8d6000ebc1b62866282/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "03n1lylnhw9c4qigwv6s8f3ykvk9hzbygk055b3q4i9an9jmvhq9";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-8da73730b4033553589aa67ef404e527149c2e92/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1h9czdc16fvv40vnn902zq6vlgny7rkbs57nby9kdpga976l9bgg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-89b7470b50f2ea6ae500b8d6000ebc1b62866282/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0bb3k371nkb9vb1414v2bngq5n36p901kfa6w4w391gg2q8rp93k";
     };
   };
 }
