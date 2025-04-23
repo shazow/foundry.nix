@@ -89,7 +89,7 @@ $ devenv init
 Add this repo as an input in the `devenv.yaml` with the following shell command:
 
 ```shell
-$ devenv inputs add foundry github:shazow/foundry.nix --follows nixpkgs
+$ devenv inputs add foundry github:shazow/foundry.nix/stable --follows nixpkgs
 ```
 
 And edit the `devenv.nix`:
