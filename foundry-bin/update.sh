@@ -12,7 +12,7 @@ function fetch_releases() {
 
     if [[ "$SCHEDULE" == "stable" ]]; then
       # "stable" release stream is marked as latest on the repo
-      GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases/latest"
+      GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases/tags/stable"
       binaries='["foundry_stable_linux_amd64", "foundry_stable_linux_arm64", "foundry_stable_darwin_amd64", "foundry_stable_darwin_arm64"]'
       binaries_filter="select(.assets | map(.name) | contains(${binaries}))"
 
