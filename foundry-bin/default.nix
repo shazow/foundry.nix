@@ -19,6 +19,7 @@ in
       [
         pkg-config
         openssl
+        xz
         makeWrapper
         installShellFiles
       ]
