@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-05-26T22:33:22Z";
+  timestamp = "2025-05-27T14:49:41Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-496598b3717354780de294898da83c19143010b5/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1gnb76wgkr5cx5bpc1k734vryik2nyb1bbgwb9ndg9r3c920j95h";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-65650a6fca64dbd17c093c106b1c61b1982f5469/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1p6f7vk9zikcqb1xbxl7n56s92axk6vbn8daa5rwh36p3qy7yvip";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-496598b3717354780de294898da83c19143010b5/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0587g3wgc7cysv791rhflcnjy04dd0yq8f3clx3k8gqsxcxw69b0";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-65650a6fca64dbd17c093c106b1c61b1982f5469/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0ldc55ml1795sv3bkvbpcs20za5z1m90f9f5c0h1zvjzbckp136v";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-496598b3717354780de294898da83c19143010b5/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0zsb1nv31gd98qfxzg33h9cva6mx3wdcgxqpaj1srws9x73v09ji";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-65650a6fca64dbd17c093c106b1c61b1982f5469/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0jjwzqpx9zzc5zr62zyrvql9yyc8k3iphg8v318yyi318s2izg94";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-496598b3717354780de294898da83c19143010b5/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0qpd6z0bji3jzf47nccdnii7mdjspvf5gr11dnzh6bx83zf2dbdj";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-65650a6fca64dbd17c093c106b1c61b1982f5469/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "16hwdfp74x86m1bj4yyzk696n0vx41pz328fb1ylk2j0r0h3rd7q";
     };
   };
 }
