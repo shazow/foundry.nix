@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-05-31T19:07:34Z";
+  timestamp = "2025-06-01T17:54:01Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-62ce5bc62f5951ea0575c8df70b4f855beef3af1/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1rpsw7f1x2qzgxps3smq1dxvgh83s7rd5alpmqd1p7knypwf6aah";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7b18dc8f5be44ad248cbea0bf45723f689627555/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0610sg4q7fgml8a6ggrnnlcs0zhpwvmrhlmcdqm56dzlpicwmp85";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-62ce5bc62f5951ea0575c8df70b4f855beef3af1/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "03i3fs71pb30y5a459w18xxdimcmr911pb8ml4n1hwawz3w4ssp7";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7b18dc8f5be44ad248cbea0bf45723f689627555/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1dndjw9c7raxhk17pfap2bql5v0m8zbcp6764ykp04g1myyimr6g";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-62ce5bc62f5951ea0575c8df70b4f855beef3af1/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0hqhps51hhmiis8irmhc2dps398sh6xhwk3z5xj6x87k5ipsa02m";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7b18dc8f5be44ad248cbea0bf45723f689627555/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "12sjhi0sfnsy894z982asnyfghxpbdc6vyz1zwg9g983r9r460dv";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-62ce5bc62f5951ea0575c8df70b4f855beef3af1/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0dg3c73az3bchwmk7g0zc6h11shzb4dgay3r2k5pykyf0spqlwhq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-7b18dc8f5be44ad248cbea0bf45723f689627555/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "15hhr2j39cjm3dar0v3187abih0yfmc02p313d94lcrzdznpzgir";
     };
   };
 }
