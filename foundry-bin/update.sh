@@ -11,13 +11,9 @@ function fetch_releases() {
     declare schedule="$1"
 
     if [[ "$SCHEDULE" == "stable" ]]; then
-      # "stable" release stream is tagged "stable"
-      GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases/tags/stable"
-      binaries='["foundry_stable_linux_amd64", "foundry_stable_linux_arm64", "foundry_stable_darwin_amd64", "foundry_stable_darwin_arm64"]'
-      binaries_filter="select(.assets | map(.name) | contains(${binaries}))"
-
-      # Only consider latest release if it contains the necessary binaries
-      curl -s "$GITHUB_API_URL" | jq "$binaries_filter"
+      # stable releases are now always the "latest" GitHub release
+      GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases/latest"
+      curl -s "$GITHUB_API_URL"
 
     elif [[ "$SCHEDULE" == "monthly" ]]; then
       GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
@@ -42,6 +38,11 @@ target_release_json="$(fetch_releases $SCHEDULE)"
 tag_name="$(echo $target_release_json | jq -r .tag_name)"
 timestamp="$(echo $target_release_json | jq -r .created_at)"
 download_prefix="$(echo $target_release_json  | jq -r '.assets | map(select(.name | test("^foundry_man") | not)) | first | .browser_download_url' | cut -d '_' -f-2)"
+if [[ "$SCHEDULE" == "stable" ]]; then
+  version="${tag_name#v}"
+else
+  version="0.0.0"
+fi
 
 if [[ "$timestamp" == null ]];then
     echo "Sad month, no build :("
@@ -60,7 +61,7 @@ get_hash() {
 
 cat > releases.nix << EOF
 {
-  version = "0.0.0";
+  version = "${version}";
   timestamp = "${timestamp}";
 
   sources = {
