@@ -7,7 +7,6 @@ set -euxo pipefail
 
 SCHEDULE=${1:-"nightly"}
 
-AUTH_TOKEN=""
 if [[ -n "${GITHUB_TOKEN:-}" ]]; then
   AUTH_HEADER="Authorization: token $GITHUB_TOKEN"
 fi
