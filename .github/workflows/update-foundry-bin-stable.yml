@@ -11,7 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: stable
+          ref: main
+      - name: Checkout stable branch for committing
+        run: |
+          git fetch origin stable
+          git checkout stable
+          git checkout main -- foundry-bin/update.sh
       - uses: cachix/install-nix-action@v16
         with:
           nix_path: nixpkgs=channel:nixos-unstable
@@ -21,5 +26,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          branch: stable
           commit_message: 'foundry-bin/releases.nix: Stable update'
           commit_author: Nix Updater <actions@github.com>
