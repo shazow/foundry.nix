@@ -15,6 +15,8 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Building package
         run: 'cd ./foundry-bin && ./update.sh nightly'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'foundry-bin/releases.nix: Nightly update'
