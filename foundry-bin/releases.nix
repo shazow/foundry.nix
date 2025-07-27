@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-07-25T16:33:58Z";
+  timestamp = "2025-07-27T05:52:54Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b57f7c15b1c19b65057ffeff799c76eed3f283b0/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "14xw56r5j6k60h547ryy6iq0x2nawic1cf9q75xc3dhzidiy4s3g";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a81a9555ce8eef125379ca597fa9c41dfe92d2f6/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "022ly0y8r6f2jjzwbva8nkz02zfl4fnpyb2n00c7q4m0q2laia1h";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b57f7c15b1c19b65057ffeff799c76eed3f283b0/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "07r2l6ynxmm1yak4kmhr2i0mff72yvqqxrx4xwafcz3xpmd1af36";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a81a9555ce8eef125379ca597fa9c41dfe92d2f6/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1jgimdms2pcchg70dphx2880zdffwiiv1aiignwm90yrgms703p0";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b57f7c15b1c19b65057ffeff799c76eed3f283b0/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0z0daxh9cnvllzn59gny2nwp8z48v18l8374cg53ira4psmjc3dq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a81a9555ce8eef125379ca597fa9c41dfe92d2f6/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "18knpilqvbj2w3baskacsknv1bjlcgf3xriyb5g7h3ka1m00nriq";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b57f7c15b1c19b65057ffeff799c76eed3f283b0/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0lzbhz8plwyiam07adnzy8padfp0g7ryqs58gk2sd7vilcabhrms";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a81a9555ce8eef125379ca597fa9c41dfe92d2f6/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "163var7qylb1p245s0xgbxpwri7g3qdica9lib9cirbw7lgpkgin";
     };
   };
 }
