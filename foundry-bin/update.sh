@@ -9,6 +9,8 @@ SCHEDULE=${1:-"nightly"}
 
 if [[ -n "${GITHUB_TOKEN:-}" ]]; then
   AUTH_HEADER="Authorization: token $GITHUB_TOKEN"
+else
+  AUTH_HEADER=""
 fi
 
 function fetch_releases() {
@@ -27,6 +29,13 @@ function fetch_releases() {
 
       # Output only releases which contains all needed binaries
       curl -s -H "$AUTH_HEADER" "$GITHUB_API_URL" | jq "$binaries_filter | $release_filter"
+
+    elif [[ "$SCHEDULE" == "rc" ]]; then
+      GITHUB_API_URL="https://api.github.com/repos/foundry-rs/foundry/releases"
+      data=$(curl -s -H "$AUTH_HEADER" "$GITHUB_API_URL")
+      # get releases, sort by date, reverse, get first release whose version contains rc
+      release=$(echo $data | jq 'map(. + {published_at: (.published_at | fromdate)}) | sort_by(.published_at) | reverse | map(select(.name | test("v\\d+\\.\\d+\\.\\d+-rc\\d+"))) | first')
+      echo $release
 
     else
       # first/nightly, similar to monthly
