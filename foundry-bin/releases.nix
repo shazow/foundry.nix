@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-10-17T18:41:13Z";
+  timestamp = "2025-10-18T15:41:42Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-3f82ca4b9b8383c40e08b2641aa7108e991ca173/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "16rdwr1dm79vlhawx76xj24y2pjw1w03dkh2994dakxydzkm3bzy";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fc92ad40d9a410766c0cce1a0e25bd9886e78f79/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1vh767zmv6ymbl54flr5wd1fyi4nyn3jdwmh9lfn57sphagv4qbz";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-3f82ca4b9b8383c40e08b2641aa7108e991ca173/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0vgr8y4vxl0bv6r82pkim1wi6ibg06a1wd7r8vz9sxqjjjfyl823";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fc92ad40d9a410766c0cce1a0e25bd9886e78f79/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0yjys2i90kpp76r7vmwpdm4x7vm4s6ry049fn6907anwlq5ksdbn";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-3f82ca4b9b8383c40e08b2641aa7108e991ca173/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0xkfc0w13v745wq3f037cabiflq0ivi8nqhmm6jmsm2n2jjj14bk";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fc92ad40d9a410766c0cce1a0e25bd9886e78f79/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1ryyk0hb2nbksw5m8kzv3km1py7dnkim2pirbpg5as7hc15y120n";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-3f82ca4b9b8383c40e08b2641aa7108e991ca173/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "16hf9b6ml7a3w5d5pj39wmy53awljwk2161ar5j6xlmzm962xnc2";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-fc92ad40d9a410766c0cce1a0e25bd9886e78f79/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "06a6bx0mxhcd98591j871zx1n2ishbic2acya868814h7armjsr0";
     };
   };
 }
