@@ -48,6 +48,12 @@ function fetch_releases() {
 }
 
 target_release_json="$(fetch_releases $SCHEDULE)"
+
+if [[ "$SCHEDULE" == "rc" && "$target_release_json" == "null" ]]; then
+  echo "No release found for rc"
+  exit 0
+fi
+
 tag_name="$(echo $target_release_json | jq -r .tag_name)"
 timestamp="$(echo $target_release_json | jq -r .created_at)"
 download_prefix="$(echo $target_release_json  | jq -r '.assets | map(select(.name | test("^foundry_man") | not)) | first | .browser_download_url' | cut -d '_' -f-2)"
