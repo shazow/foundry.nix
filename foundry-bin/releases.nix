@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-11-04T12:17:26Z";
+  timestamp = "2025-11-05T22:56:41Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-da99e6b5e99cc96edafae844141bf39bbdfe52b4/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0v0zk1mi24mb908igx2wg4ha8vhw9d4m7ig3r2pqvjqdyps8xbq1";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-118e12edb96c4593be5809e0161000dc29a26654/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "17nc2qyjcfvkk5pbrqila5hh1z1h2in8fn1b797r3bgplvlylak1";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-da99e6b5e99cc96edafae844141bf39bbdfe52b4/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "03lhq0m65dzfjn8qx88wk7553gl5imana7nd0g471icrbp8pw63s";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-118e12edb96c4593be5809e0161000dc29a26654/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1vznsgy30s2qj88m1jp9klv9kd8xafb965gpdsy7dda0921j737k";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-da99e6b5e99cc96edafae844141bf39bbdfe52b4/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0z7i3zn44x93zzsqqylr82d57lvizq2cj173gvwizc21scpmlplx";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-118e12edb96c4593be5809e0161000dc29a26654/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "04dv67smj8imagsj2kkkzfmv4rr6xcr01pv31rphqvavlv3di8fx";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-da99e6b5e99cc96edafae844141bf39bbdfe52b4/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0ppr3i09vcdj0gwqycrkl7jp339j7m8mqx24dcsvgp0s6q6k2vic";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-118e12edb96c4593be5809e0161000dc29a26654/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "08y6f3c17gbk3mng57cqa4md3mr17was5laz4d16121m13ahkma2";
     };
   };
 }
