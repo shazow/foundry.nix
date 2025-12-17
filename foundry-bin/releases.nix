@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-12-16T01:54:42Z";
+  timestamp = "2025-12-17T01:51:42Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f8e70a81f01cc30e1c83dda5b87c34f7d333c460/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0g61664ccdqbaf3414lbcgp9hzldwm1jsw2102dh90jjhcnjx58p";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0636b834368f79fa9302775b92057d94789d72a/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0m09ar6f975fzvm8jjx55pvbz1hz34a6r8yjs6vyq2c996vvaw1z";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f8e70a81f01cc30e1c83dda5b87c34f7d333c460/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1bbjcwsrjsbr04pvy9693518c9pc7hklp2wgl579b8h6q2pdml0a";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0636b834368f79fa9302775b92057d94789d72a/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "08gxl79cr301kf0avk3i5ipvljl35m0i9nxyqv9217cykj9l4d6v";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f8e70a81f01cc30e1c83dda5b87c34f7d333c460/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0ssxqwgk824ghrnr3hfpddzx31djy24p0v30kl4qrhf3rxrk6vjz";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0636b834368f79fa9302775b92057d94789d72a/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0ax6pxy4p817y3w0q5pngrpx4j24sknml2kmhl9kdq47l75dcpcc";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-f8e70a81f01cc30e1c83dda5b87c34f7d333c460/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "06rjl5wh46mj8pzc8vhwh2f2db9k3naf4p1p5i46iz91npvkmh0d";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-e0636b834368f79fa9302775b92057d94789d72a/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "097z4apsj3lcgjd22m1pp01p7sw65gqfnaarx7a6nd0ir9ap2wzk";
     };
   };
 }
