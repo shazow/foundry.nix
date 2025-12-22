@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-12-21T01:24:25Z";
+  timestamp = "2025-12-22T03:44:42Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-bf66a990db6bc348a0461a063b92ef893eb260e8/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "008viqx1v470cxncn42vp4msvqn8f7a8hj3c6b0arv819ipgdc88";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-57ded5ab89b3065f413d1ab532404071da770c79/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1ais0nm0gl0671i3vzm0m2vimxmhv88mjqsybkl564jyvycln5is";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-bf66a990db6bc348a0461a063b92ef893eb260e8/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1fpr17bzls8yb9669nl6b81lnkxld5ian309p9wsivzdxshpshqq";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-57ded5ab89b3065f413d1ab532404071da770c79/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1z47qvzpqj8z7gcmkw3r38nc8y3z7vmm3qhaaaa7idcya3yii4fs";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-bf66a990db6bc348a0461a063b92ef893eb260e8/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0qsk3lghccqd7km0r0x6hp5lg3igkxji4jjmhh81x9ikhn2mpwqc";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-57ded5ab89b3065f413d1ab532404071da770c79/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0rjc3clcgjmx2z3aj6kks2lgdw0d0vblb3d39sijw0bypj11vvnm";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-bf66a990db6bc348a0461a063b92ef893eb260e8/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1gfgh4qib34qq763dcd9rr74237qjywskliqgrqqx4zcq81amjri";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-57ded5ab89b3065f413d1ab532404071da770c79/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0aag9jqc3v52gqni2a19639006x1yxwg41pyljv4lh2pil77915j";
     };
   };
 }
