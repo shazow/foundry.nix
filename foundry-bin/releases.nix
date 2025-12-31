@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2025-12-30T04:25:56Z";
+  timestamp = "2025-12-30T21:05:10Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6ff4b52e2e572e93d0cd81591b1bd0e6ad9ed507/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0m1xcsjnhb2g2zcn0fqwbndjqldmi52j71izjdmzb265xhiy126m";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b9bc92a471d7691e2db704c4c036d3499b62401f/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "13jbr6fi2rz4izksfm4xpgvvfx8d0q27awbwk6qc2v9blfc8djdr";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6ff4b52e2e572e93d0cd81591b1bd0e6ad9ed507/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1qx8l4j692471ylb5hnf8gf4scj62367ck1vbg6k6k9x53gz626n";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b9bc92a471d7691e2db704c4c036d3499b62401f/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0fvslphdcmd9qxlqijlmr999a19rjdmwmdyygzady5bk6iasach8";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6ff4b52e2e572e93d0cd81591b1bd0e6ad9ed507/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "082g9mj2m6zjwmraww95xsdjya8l1av245q2lz1cbp1kj203cmz9";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b9bc92a471d7691e2db704c4c036d3499b62401f/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "15a3yi79mispy859wq2f2q3hy770cm9qygsdyn4p8l8ffg223175";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6ff4b52e2e572e93d0cd81591b1bd0e6ad9ed507/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "02hgdw474rahypfc85m1sf31irds0d7ympjcwwqn9y7k74ig0v00";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-b9bc92a471d7691e2db704c4c036d3499b62401f/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0c8prpca2s7v62775gpmsrsmcxwgrxhq8wiawyagpkr6k607hirw";
     };
   };
 }
