@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-01-08T17:48:19Z";
+  timestamp = "2026-01-09T22:29:10Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ad5ff80cc8576274bc20e3218bafd4c9d45994fb/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1acg690rfym1c6bl1m8wz09vz2qqhh99y785qq3cvy3g3lc1nl9v";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1hsix08m10svcrsssmwjxchjfawqnjcw25ddgn5y4hgcg71dxrg1";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ad5ff80cc8576274bc20e3218bafd4c9d45994fb/foundry_nightly_linux_arm64.tar.gz";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_linux_arm64.tar.gz";
       sha256 = "0vvi43g0yz0gr5dwi8balfay5wbki3h1vs85gp3g1qs9iy6amgs0";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ad5ff80cc8576274bc20e3218bafd4c9d45994fb/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0wlf75v96j3q22vhgh00g6jsjvrw56sjm8kgh85n4qxjnjj5jplr";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0iw15fkq6n37gibdwid7wcq20wcppw7jpk08j56j9v9i66skj2sj";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-ad5ff80cc8576274bc20e3218bafd4c9d45994fb/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "1m81qc5pjfcvgv9ax638riysz8cx26lpbkakcs6s39xxc7ya7a3z";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1ymf32xjak9g195l8i8grawdmn404mk5n5y0gc964h6k51bx01v5";
     };
   };
 }
