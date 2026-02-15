@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-02-13T19:37:08Z";
+  timestamp = "2026-02-15T01:52:22Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-81678d6f2c4992c0ac04d0c9f2cdf4b942b95244/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1m85lvjbmlyqpfgy249ywg2s9zbqpp8x1rz868z78vr5y6a2njy0";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bcfafaec3645f4351d35052be36ecf214200465/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0cn6rvkig2i41ixyl3r0lik56ybbljjy2i7c84rwdkksl89h987f";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-81678d6f2c4992c0ac04d0c9f2cdf4b942b95244/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1l557zz7c1w48ydzjm5jakxyb857lg4n9ksjalwgl96mpdc6rw34";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bcfafaec3645f4351d35052be36ecf214200465/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0kq5pil8yb65ykdsvdrigdqvjhh19qd6yli60jzl2dn3v9wc0rcd";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-81678d6f2c4992c0ac04d0c9f2cdf4b942b95244/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0d7srrnzzyqfxqp8b6yzkgvcyg3yidc6x6ky9fl21bdcaljh2jnb";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bcfafaec3645f4351d35052be36ecf214200465/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "09b2q0n3jpspzkyblz1nhjyhc1ayw6fyvf058b67n3l12pyh7f0f";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-81678d6f2c4992c0ac04d0c9f2cdf4b942b95244/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0nxbv6krbm765089i1af9b5b7nb1csqxy688y7bmdbaap5z8mwb4";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0bcfafaec3645f4351d35052be36ecf214200465/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0dps22fi0kkdklg13i72l1n3hpjb954md3siwpn0ip4893y58686";
     };
   };
 }
