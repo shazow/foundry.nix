@@ -1,5 +1,11 @@
 # foundry.nix
 
+> [!TIP]
+> 🎉 **[foundry is in nixpkgs](https://search.nixos.org/packages?query=foundry&show=foundry).**
+> 
+> If you don't need nightly releases, consider using the nixpkgs version.
+
+
 Nix overlay for [foundry-rs/foundry](https://github.com/foundry-rs/foundry/) (including `forge`, `cast`, `anvil` and `chisel`)
 
 This repository is [auto-updated daily](https://github.com/shazow/foundry.nix/blob/main/.github/workflows/update-foundry-bin.yml) with the latest nightly binary release, which are pruned from upstream regularly. We also maintain an `rc` and `stable` branch for the latest release from that stream which is not pruned.
