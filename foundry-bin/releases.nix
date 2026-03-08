@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-03-07T03:20:53Z";
+  timestamp = "2026-03-08T01:23:11Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-513ae2b0b99622b1e462dead2d0ba2a282e53c49/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "1kcribdk4s7l11dykgdydgbib3yi0kvc0cfs3x3pm6ynw41y5msg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-553929b04f4da5a4230df462a5c104353e4906d5/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "05c80hj5j574l09zw0953r3iniiqjj0bwxf2916svq8sadpihfm6";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-513ae2b0b99622b1e462dead2d0ba2a282e53c49/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0hwb625srsx0v3gnpk3mxk1z6lhvmvax35dq301v8mknyfpc2azg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-553929b04f4da5a4230df462a5c104353e4906d5/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1y8r4x928bhvdc1nk4hr0ai9pd0jgk3zjr6c072f106pwz9k36gc";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-513ae2b0b99622b1e462dead2d0ba2a282e53c49/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "0xp2xlnvpzf1vklclvq38b0lp21kjqjrn880y4ar5hwr92d5k02g";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-553929b04f4da5a4230df462a5c104353e4906d5/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "09mcpc6pfw4wsqisl60b505f6vii5ndagn81isn0m3ymlidrlhwn";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-513ae2b0b99622b1e462dead2d0ba2a282e53c49/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0vm4lwa7qjnjcvqv7xp78idi74p0md23raj19abxq4fslbmmap4h";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-553929b04f4da5a4230df462a5c104353e4906d5/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0sl609chy1a02lz2kqzrm8hjj39f3813jdlz163gz3dmxxdflx86";
     };
   };
 }
