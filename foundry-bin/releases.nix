@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-03-29T00:17:02Z";
+  timestamp = "2026-03-30T17:32:18Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6e01adcd5f10ac510f3827b380f9be28e21e4c47/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0kwh8b7hy4545x3a51i7qs22xznxblldbyrd1kw7q148r3b3lw4d";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-24ff91d9319b4a38dfa695eb2963726ffc2c349b/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0sa075ip9kfxhp206fz82sbbxf2x7kcjb1cp4m7w1w7wf01mjv8i";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6e01adcd5f10ac510f3827b380f9be28e21e4c47/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0qnl6lsf0rg9fxfkjnjh1d9i40vwmg0ry0r6n1hl9cyvi06xm240";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-24ff91d9319b4a38dfa695eb2963726ffc2c349b/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0bwkdkyb3bw4j9nasfyhmkkck0w2bhnybir9ihjrmsiw5r2920pi";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6e01adcd5f10ac510f3827b380f9be28e21e4c47/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "09c9nymf7hg2kn7vd2i2p5idif72wxs86x9skg28mf1qca8md18s";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-24ff91d9319b4a38dfa695eb2963726ffc2c349b/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0w8ra8z02vqrpx0s6149gbl5bc7cji57n4mn56vq8zl0jv8jzq5a";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-6e01adcd5f10ac510f3827b380f9be28e21e4c47/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0kggmxx9pw71mykfk6bgz2q5a7snbd82xsdxads2m2h8xm0ysmsa";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-24ff91d9319b4a38dfa695eb2963726ffc2c349b/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "160ij0ym79qp7rpjc4v7bz07kyf1vz4p5ka9r28v03vnfqnnp334";
     };
   };
 }
