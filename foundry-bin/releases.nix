@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-06-02T20:02:35Z";
+  timestamp = "2026-06-05T00:35:44Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-389b5e3b53fad226fd72d205937225f4a8c630c6/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0l5pmp0jcnzq7b8svmsbdb9m1pmr67gqgjiadj03xfjgl77wzham";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-dea99c55914d010b22d3f5532fca180a8ecafda1/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1200fhpli01vdzz1h0xvlk4phbpkkh935pr6kgjrrvhknjq7kxd6";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-389b5e3b53fad226fd72d205937225f4a8c630c6/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "0xssk0gpk8whrkv7h0g3bjcfsayzd2wy069z7462wfbpqfkhgpv0";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-dea99c55914d010b22d3f5532fca180a8ecafda1/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0pld3q1334sc9mnri5xa74sv72x8sbgnwcw63i32xf8lpgxzqxki";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-389b5e3b53fad226fd72d205937225f4a8c630c6/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1dqllq32pxsnsjjn6rrcycb0xaa3vyx0c061izbracllpqhbv2p6";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-dea99c55914d010b22d3f5532fca180a8ecafda1/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "147w9x63rxz0bych3qhas9ljfghng1dxdwna02cbfnrssgzyd6p8";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-389b5e3b53fad226fd72d205937225f4a8c630c6/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "069wv0ficiljwrkfcn7bbj7iv9hir026xx0zch3m4njf8qylg60j";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-dea99c55914d010b22d3f5532fca180a8ecafda1/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0m9qlscz0myh51b7wkx3c54nj8993h0r7xqamdqmjl6gxzyzmak4";
     };
   };
 }
