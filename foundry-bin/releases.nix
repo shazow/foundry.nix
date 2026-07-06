@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-07-03T04:51:27Z";
+  timestamp = "2026-07-06T07:14:34Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-99069d1f0e7a99c416b9a329e151f388bb03549d/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "0c03md2azsjcp71gbwmd9z0lr67838pwfbylkg1166i2sd8c14la";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0a8e2a09b7740b852af4a65409eea7322f48a918/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "1b1j1gym5pydn566krzsrn6hbs46vzxp3dhdmrnjv842498n7kr5";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-99069d1f0e7a99c416b9a329e151f388bb03549d/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1q71b142dhgniq1d1iqr2948g8kxn46pd5bi7gwkp0lwrry9i1nm";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0a8e2a09b7740b852af4a65409eea7322f48a918/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "0d3d4avdcp8m0ic444f3yrsrd790hgwjkbinw9070rwfg3rc3l6s";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-99069d1f0e7a99c416b9a329e151f388bb03549d/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1kq93h6bivv5zixyd5snvzbl354biin41g65l28pic58zw82rxag";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0a8e2a09b7740b852af4a65409eea7322f48a918/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "0x0ca35f8j1y66z185alky5w0jm3x7x9z3wvy10kidcjjggdpw42";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-99069d1f0e7a99c416b9a329e151f388bb03549d/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0b5w79f6q13ww37mnj5y1rcan5mbbh19nhxmdjqkvxjh8cyhcfh3";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-0a8e2a09b7740b852af4a65409eea7322f48a918/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "0sp81dvmnmqin849gwrzw4p3pyiarzfmk93374vgmyhkdlmphrlv";
     };
   };
 }
