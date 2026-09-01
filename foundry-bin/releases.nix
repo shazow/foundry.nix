@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-08-01T21:50:04Z";
+  timestamp = "2026-09-01T05:31:08Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d6d349715f25c43a1a64b2e39589b98b284e2aac/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "00vn62m4kq4s1gxfjdpjsxf0qa9aajfpk0jj9cs3y50fhmk9f61v";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a998dbf027db7ff4284465ca0b525affd55cc915/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "11lnw6n1qph985ny62fqb2yqaj40lcj8v9k4glm2lj350d7zsvkm";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d6d349715f25c43a1a64b2e39589b98b284e2aac/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "1cjvk9qsq5yna5k27qlfx0q7yz3mcjdvcdzdjyzb8rr28l0ygzh1";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a998dbf027db7ff4284465ca0b525affd55cc915/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1440irw41bdfy2rqcj1qypqpfnis41anf0f2qrkbpaf5giafm2al";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d6d349715f25c43a1a64b2e39589b98b284e2aac/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "1c0x3vmi0mbdp3b7y8lr3mx21kz9fnwpfkcm72lajy0gha42h682";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a998dbf027db7ff4284465ca0b525affd55cc915/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1xnxzpqx40a4xli5ssjcpfmi95ldbzs96ng2bk6p9a89b7gqylgx";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-d6d349715f25c43a1a64b2e39589b98b284e2aac/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "0jn9xxrfxmx1d2bf15p20sa1l1iazr4q5ykrm0mgqdk5mkpgmapv";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a998dbf027db7ff4284465ca0b525affd55cc915/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1fgg9l8fvywv9837nsb0h303rfhgjxjwzh436xymgrd2khdkds7l";
     };
   };
 }
