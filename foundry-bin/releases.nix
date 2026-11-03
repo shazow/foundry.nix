@@ -1,23 +1,23 @@
 {
   version = "0.0.0";
-  timestamp = "2026-10-31T19:51:40Z";
+  timestamp = "2026-11-01T15:24:17Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-c9c0c17193fd9c7ffbb9d6d71500e94b0c9f7703/foundry_nightly_linux_amd64.tar.gz";
-      sha256 = "19m2smw257ihnh1nfsjj5q5fqa3s541lz4cwy5jdk09mkf8i0byb";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a577a1142515f5a96935a525935936a2281b4c75/foundry_nightly_linux_amd64.tar.gz";
+      sha256 = "0mn2dpb89532yd8yp7910mykzp3l2blqyqdrql9mg4d6491yk9q3";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-c9c0c17193fd9c7ffbb9d6d71500e94b0c9f7703/foundry_nightly_linux_arm64.tar.gz";
-      sha256 = "048kng4bqynxq30fl2kc06ygrynqnysayk8xx1dvp3z18iyaqrpx";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a577a1142515f5a96935a525935936a2281b4c75/foundry_nightly_linux_arm64.tar.gz";
+      sha256 = "1vqi84mdcz6m05vws1s77y9z6441ww225ch7y7fm9s3pnmqn4nha";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-c9c0c17193fd9c7ffbb9d6d71500e94b0c9f7703/foundry_nightly_darwin_amd64.tar.gz";
-      sha256 = "10gi1j4yi0yz7fd65cf8917r6f0vs9akjl3dld4y948k5sm7silk";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a577a1142515f5a96935a525935936a2281b4c75/foundry_nightly_darwin_amd64.tar.gz";
+      sha256 = "1sp70n46xn6f0rd5zx9j3agpbj7sd2nf4az60g9928gnhscsim4v";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-c9c0c17193fd9c7ffbb9d6d71500e94b0c9f7703/foundry_nightly_darwin_arm64.tar.gz";
-      sha256 = "026dvf2909yhvy8cw4f0rh83j12nj2mxvh0q31ppywkvwy25d4rn";
+      url = "https://github.com/foundry-rs/foundry/releases/download/nightly-a577a1142515f5a96935a525935936a2281b4c75/foundry_nightly_darwin_arm64.tar.gz";
+      sha256 = "1q3fad5dxw7k5ak1mj95356mmky2471d07a9wv82xm7myzw201pk";
     };
   };
 }
