@@ -1,23 +1,23 @@
 {
-  version = "1.9.0";
-  timestamp = "2026-11-02T18:15:17Z";
+  version = "1.10.0";
+  timestamp = "2026-11-19T14:48:25Z";
 
   sources = {
     "x86_64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/v1.9.0/foundry_v1.9.0_linux_amd64.tar.gz";
-      sha256 = "1mlqnl5dx7k79j9mxx0q23vv56cr45xcjkw4df7v2d904g65srlg";
+      url = "https://github.com/foundry-rs/foundry/releases/download/v1.10.0/foundry_v1.10.0_linux_amd64.tar.gz";
+      sha256 = "0msf9cyhpc7sf0yin02id1ygdlvaswknzy4wr76g9xiaxdi475ly";
     };
     "aarch64-linux" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/v1.9.0/foundry_v1.9.0_linux_arm64.tar.gz";
-      sha256 = "0q7czg6a29mcqv2j7jdccrdhs5jk6n24sc2mfs8f6w6cbcpqfrvx";
+      url = "https://github.com/foundry-rs/foundry/releases/download/v1.10.0/foundry_v1.10.0_linux_arm64.tar.gz";
+      sha256 = "0mff7yypwns584r4r0yxn0mn17dv8xhx1wibc8wx76hbiy2lrr8f";
     }; 
     "x86_64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/v1.9.0/foundry_v1.9.0_darwin_amd64.tar.gz";
-      sha256 = "0s0r1jlrs2q159715hb5ygn6qdcqhwkdpclmz7hzbpnbh5294ci5";
+      url = "https://github.com/foundry-rs/foundry/releases/download/v1.10.0/foundry_v1.10.0_darwin_amd64.tar.gz";
+      sha256 = "18nmh3nzmwqqqyyvb4724i9nh4445p7bjx8y8dfc4fy4qm39nvgd";
     };
     "aarch64-darwin" = {
-      url = "https://github.com/foundry-rs/foundry/releases/download/v1.9.0/foundry_v1.9.0_darwin_arm64.tar.gz";
-      sha256 = "0hlff04j91y7lc648ccd7940alzhmb7k1vjpdd09bh5hzxbs7ial";
+      url = "https://github.com/foundry-rs/foundry/releases/download/v1.10.0/foundry_v1.10.0_darwin_arm64.tar.gz";
+      sha256 = "1mianw5ngwy9fkrv8yris1434yjbpq45c0pg49p2syh480fk8818";
     };
   };
 }
